@@ -88,7 +88,7 @@
  .main-wrapper .header {
 	
 	 position: relative;
-	 background:  url(""./AV.png"");
+	 background:  url("./AV.png");
 	 background-size: cover;
 	 background-position: center;
 	 height: 100vh;

@@ -79,11 +79,12 @@
 	 vertical-align: middle;
 }
  .main-wrapper .header {
+	
 	 position: relative;
-	 background:  url("file:///C:/Users/shibi/OneDrive/Desktop/Ansary Verkauf/pen-export-NWBoGpY (1)/pen-export-NWBoGpY/dist/AVjpg.jpg");
+	 background:  url(""./AV.png"");
 	 background-size: cover;
 	 background-position: center;
-	 height: 80vh;
+	 height: 100vh;
 }
  .main-wrapper .header h1 {
 	 position: absolute;

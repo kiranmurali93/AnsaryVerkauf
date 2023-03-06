@@ -85,11 +85,10 @@
 	 vertical-align: middle;
 }
  .main-wrapper .header {
-	 position: relative;
-	 background:  url("./AV.png");
-	 background-size: cover;
-	 background-position: center;
-	 height: 80vh;
+    background: url("./AV.png");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
 }
  .main-wrapper .header h1 {
 	 position: absolute;

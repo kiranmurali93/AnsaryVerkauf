@@ -9171,7 +9171,7 @@
       var head = i > 0 ? _int.slice(0, i) + (_int.length > 3 ? ',' : '') : '';
       var _float = stringified.slice(-3);
       var sign = value < 0 ? '-' : '';
-      return _currency + sign + head + _int.slice(i).replace(digitsRE, '€1,') + _float;
+      return _currency + sign + head + _int.slice(i).replace(digitsRE, '€1') + _float;
     },
 
     /**
@@ -9442,7 +9442,7 @@ Vue.component('products', {
     });
   },
 
-  template: "<h1>Produkte</h1>" + 
+  template: "<h1>Products</h1>" + 
   "<div class='products'>" +
   "<div v-for='product in productsData' track-by='$index' class='product {{ product.product | lowercase }}'>" + 
   "<div class='image' @click='viewProduct(product)' v-bind:style='{ backgroundImage: \"url(\" + product.image + \")\" }' style='background-size: cover; background-position: center;'></div>" +
@@ -9718,7 +9718,7 @@ Vue.component('cart', {
 
 Vue.component('checkout-area', {
   template: "<h1>Checkout Area</h1>" + 
-  '<div id ="beta" class="checkout-area">' + 
+  '<div class="checkout-area">' + 
   '<span> {{ cart | cartSize }} </span><i class="fa fa-shopping-cart"></i>' +
   '<table>' +
   '<thead>' +
@@ -9777,31 +9777,76 @@ Vue.component('checkout-area', {
    //BOC Aromal
   //display_cart()
 
-
-
-
-  "<h1>Checkout</h1>" +
-  '<form action="mailto:shibinsaju677@gmail.com" method="post" enctype="text/plain">'+
-'Name:<br>'+
-'<input class="form-control mb-2 mr-sm-2 col-4" type="text" name="name" required><br>'+
-'E-mail:<br>'+
-'<input type="email" name="mail" required><br>'+
-'Number:<br>'+
-'<input type="text" name="number" required><br>'+
-'Comment:<br>'+
-'<input type="text-field" name="comment" size="50" ><br><br>'+
+  //"<h1>Checkout</h1>" +
+   //'<form action="mailto:shibinsaju677@gmail.com" method="post" enctype="text/plain">'+
+ //'Name:<br>'+
+ //'<input class="form-control mb-2 mr-sm-2 col-4" type="text" name="name" required><br>'+
+ //'E-mail:<br>'+
+ //'<input type="email" name="mail" required><br>'+
+ //'Number:<br>'+
+ //'<input type="text" name="number" required><br>'+
+ //'Comment:<br>'+
+ //'<input type="text-field" name="comment" size="50" ><br><br>'+
 //'<input type="checkbox" value="data" name="dataprotection" required> <a href="#" data-toggle="modal" data-target="#myModal">Data Protection</a><br><br>'+
   
-
-'<span id="beta">'+
-'<input type="text-field" >'+
-'</span>'+
-//  <span id="differWoc" >± 00</span></div>
-
-
-
-'<input type="submit" value="Send">'+
-'<input type="reset" value="Reset">'+
+ // '<input type="text-field" ' +
+  
+  // '<div class="checkout-area">' + 
+   //'<span> {{ cart | cartSize }} </span><i class="fa fa-shopping-cart"></i>' +
+  // '<table>' +
+   //'<thead>' +
+   //'<tr>' +
+   //'<th class="align-center">SKU</th>' +
+   //'<th>Name</th>' +
+   //'<th>Description</th>' +
+   //'<th class="align-right">Amount</th>' +
+   //'<th class="align-right">Price</th>' +
+   //'</tr>' +
+   //'</thead>' +
+   //'<tbody>' +
+   //'<tr v-for="product in cart" track-by="$index">' +
+   //'<td class="align-center">{{ product.sku }}</td>' +
+   //'<td>{{ product.product }}</td>' +
+   //'<td>{{ product.description }}</td>' +
+   //'<td class="align-right">{{ cart[$index].quantity }}</td>' +
+   //'<td class="align-right">{{ product.price | currency }}</td>' +
+   //'</tr>' +
+  // //'<button @click="removeProduct(product)"> X </button></div>' +
+  // '<tr>' +
+  // '<td>&nbsp;</td>' +
+  // '<td>&nbsp;</td>' +
+  // '<td>&nbsp;</td>' +
+  // '<td>&nbsp;</td>' +
+  // '<td>&nbsp;</td>' +
+  // '</tr>' +
+  // '<tr>' +
+ //  '<td></td>' +
+  // '<td></td>' +
+  // '<td></td>' +
+  // '<td class="align-right">Subtotal:</td>' +
+  // '<td class="align-right"><h4 v-if="cartSubTotal != 0"> {{ cartSubTotal | currency }} </h4></td>' +
+  // '</tr>' +
+  // '<tr>' +
+  // '<td></td>' +
+  // '<td></td>' +
+  // '<td></td>' +
+  // '<td class="align-right">Tax:</td>' +
+  // '<td class="align-right"><h4 v-if="cartSubTotal != 0"> {{ cartTotal - cartSubTotal | currency }} </h4></td>' +
+  // '</tr>' +
+  // '<tr>' +
+  // '<td></td>' +
+  // '<td></td>' +
+  // '<td></td>' +
+ //  '<td class="align-right vert-bottom">Total:</td>' +
+  // '<td class="align-right vert-bottom"><h2 v-if="cartSubTotal != 0"> {{ cartTotal | currency }} </h2></td>' +
+  // '</tr>' +
+  
+  // '</tbody>' +
+  // '</table>' +
+  
+  
+ //'<input type="submit" value="Send">'+
+ //'<input type="reset" value="Reset">'+
 
   
   
@@ -9909,7 +9954,7 @@ var vue = new Vue({
         ],
         description:  "\n Kontaktgrill KG 8101 swi | Antihaftbeschichtete Grillplatten | 5 Autogrillprogramm | 2000 Watt | schwar",
         details: "So wird Grillen und Braten zum Kinderspiel: Mit der 2000 Watt Leistung und individuell regulierbarer Temperaturauswahl erreicht der Gutfels Kontaktgrill KG 8101 SWI rasch die gewünschte Temperatur und die perfekte Grillstärke.",
-        price: 69,95 €
+        price: 69.95
       },
 
       {
@@ -9924,7 +9969,7 @@ var vue = new Vue({
         ],
         description: "\n 800 Watt Leistung | Pürierstab | einfache Reinigung | Edelstahlmesser",
         details: "Wie grob oder fein möchten Sie denn heute mixen und pürieren? Mit dem haben Sie’s in der Hand. Denn das kompakte und dennoch leistungsstarke Gerät verfügt über zwei Geschwindigkeitsstufen mit Turbofunktion und stufenloser Regulierung",
-        price: 29,95 €
+        price: 29.95
       },
 
       {
@@ -9939,128 +9984,7 @@ var vue = new Vue({
         ],
         description: "\n Standmixer | 1,75 Nutzinhalt | Glasbehälter | 1400 Watt | Edelstahl",
         details: "Wo andere nur mixen, setzt unser eleganter BLEND 5010 noch einen drauf: Mit ICE-CRUSH-, Pulse- und Rühr-Funktion sowie dem passenden Messeraufsatz, mahlen und mixen Sie, was das Zeug hält. ",
-        price: 89,95 €
-      },
-
-      {
-        sku: 4,
-        product: "Puppy",
-        image: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/241793/dog.jpg",
-        images: [
-          { image: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/241793/kittens.jpg" },
-          { image: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/241793/shark.jpg" },
-          { image: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/241793/dog.jpg" },
-          { image: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/241793/apple.jpg" }
-        ],        
-        description: "This is a puppy",
-        details: "This is where some detailes on puppies would go. Shout out puppies for being adorable.",
-        price: 5
-      },
-
-      {
-        sku: 5,
-        product: "Apple",
-        image: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/241793/apple.jpg",
-        images: [
-          { image: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/241793/kittens.jpg" },
-          { image: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/241793/shark.jpg" },
-          { image: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/241793/dog.jpg" },
-          { image: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/241793/apple.jpg" }
-        ],        
-        description: "This is an apple",
-        details: "This is where some detailes on apples would go. Shout out apples for being delicious.",
-        price: 1
-      },
-
-      {
-        sku: 6,
-        product: "Orange",
-        image: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/241793/orange.jpg",
-        images: [
-          { image: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/241793/kittens.jpg" },
-          { image: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/241793/shark.jpg" },
-          { image: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/241793/dog.jpg" },
-          { image: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/241793/apple.jpg" }
-        ],        
-        description: "This is an orange",
-        details: "This is where some detailes on oranges would go. Shout out oranges for being delicious.",
-        price: 1.1
-      },
-
-      {
-        sku: 7,
-        product: "Peach",
-        image: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/241793/peach.jpg",
-        images: [
-          { image: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/241793/kittens.jpg" },
-          { image: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/241793/shark.jpg" },
-          { image: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/241793/dog.jpg" },
-          { image: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/241793/apple.jpg" }
-        ],
-        description: "This is a peach",
-        details: "This is where some detailes on peaches would go. Shout out peaches for being delicious.",
-        price: 1.5
-      },
-
-      {
-        sku: 8,
-        product: "Mango",
-        image: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/241793/mango.png",
-        images: [
-          { image: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/241793/kittens.jpg" },
-          { image: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/241793/shark.jpg" },
-          { image: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/241793/dog.jpg" },
-          { image: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/241793/apple.jpg" }
-        ],        
-        description: "This is a mango",
-        details: "This is where some detailes on mangos would go. Shout out mangos for being delicious.",
-        price: 2
-      },
-
-      {
-        sku: 9,
-        product: "Cognac",
-        image: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/241793/cognac.jpg",
-        images: [
-          { image: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/241793/kittens.jpg" },
-          { image: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/241793/shark.jpg" },
-          { image: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/241793/dog.jpg" },
-          { image: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/241793/apple.jpg" }
-        ],        
-        description: "This is a glass of cognac",
-        details: "This is where some detailes on cognac would go. I'm like hey whats up, hello.",
-        price: 17.38
-      },
-
-
-      {
-      sku: 10,
-      product: "Cognac",
-      image: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/241793/cognac.jpg",
-      images: [
-        { image: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/241793/kittens.jpg" },
-        { image: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/241793/shark.jpg" },
-        { image: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/241793/dog.jpg" },
-        { image: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/241793/apple.jpg" }
-      ],        
-      description: "This is a glass of cognac",
-      details: "This is where some detailes on cognac would go. I'm like hey whats up, hello.",
-      price: 17.38
-    },
-
-      {
-        sku: 11,
-        product: "Chain",
-        image: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/241793/chain.jpg",
-        images: [
-          { image: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/241793/kittens.jpg" },
-          { image: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/241793/shark.jpg" },
-          { image: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/241793/dog.jpg" },
-          { image: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/241793/apple.jpg" }
-        ],        
-        description: "This is a chain",
-        details: "This is where some details on chains would go. 2Chainz but I got me a few on.",
-        price: 17.38
+        price: 89.95
       }
     ],
     checkoutBool: false,

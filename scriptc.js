@@ -9992,30 +9992,30 @@ var vue = new Vue({
                         image: "#"
                     }
                 ],
-                description: "	Gutfels Wasserkocher | 1,7-Liter  | 7 Flexible Handhabung | 2200 Watt |	Schutz vor Uberhitzung durch automatische Abschaltung und Trockengehschutz",
-
+                description: "	Gutfels Wasserkocher | 1,7-Liter ",
+                details: " | 7 Flexible Handhabung | 2200 Watt |	Schutz vor Uberhitzung durch automatische Abschaltung und Trockengehschutz"
             },
 
             {
                 sku: 2,
-                product: "HEISSLUFTFRITTEUSE",
-                price: 79,
-                image: "https://i.otto.de/i/otto/5d8fee22-07f8-5e7b-93c5-ef2231d329d2/philips-heissluftfritteuse-hd9860-90-airfryer-premium-xxl-2225-w-smart-sensing-technologie-fassungsvermoegen-1-4kg-digitales-display.jpg",
+                product: "WAFFELEISEN",
+                price: 85,
+                image: "./wa4.jpg",
                 images: [{
-                        image: "#"
+                        image: "./wa1.jpg"
                     },
                     {
-                        image: "#"
+                        image: "./wa2.jpg"
                     },
                     {
-                        image: "#"
+                        image: "./wa3.jpg"
                     },
                     {
-                        image: "#"
+                        image: "./wa5.jpg"
                     }
                 ],
-                description: "",
-                details: ""
+                description: "Gutfels Waffeleisen | 1600 Watt ",
+                details: "Leicht zu reinigen durch vollflächige Beschichtung der Backplatten |  Integrierter Überhitzungsschutz für die maximale Nutzersicherheit |  Die integrierte Überlaufrinne für überschüssigen Teig hält die Küche sauber "
             },
 
 

@@ -9977,16 +9977,16 @@ var vue = new Vue({
                 sku: 1,
                 price: 49,
                 product: "WASSERKOCHER",
-                image: "https://images-eu.ssl-images-amazon.com/images/I/81kBsOPVmWL._AC_UL232_SR232,232_.jpg",
+                image: "./w4.jpg",
                 images: [{
-                        image: "https://i.otto.de/i/otto/5d8fee22-07f8-5e7b-93c5-ef2231d329d2/philips-heissluftfritteuse-hd9860-90-airfryer-premium-xxl-2225-w-smart-sensing-technologie-fassungsvermoegen-1-4kg-digitales-display.jpg",
+                        image: "./w1.jpg",
                         
                     },
                     {
-                        image: "#"
+                        image: "./w2.jpg"
                     },
                     {
-                        image: "#"
+                        image: "./w3.jpg"
                     },
                     {
                         image: "#"

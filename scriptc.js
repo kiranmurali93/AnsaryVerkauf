@@ -9468,7 +9468,7 @@ Vue.component('products', {
         });
     },
 
-    template: "<h1>Products</h1>" +
+    template: "<h1>Unsere Produkte</h1>" +
         "<div class='products'>" +
         "<div v-for='product in productsData' track-by='$index' class='product {{ product.product | lowercase }}'>" +
         "<div class='image' @click='viewProduct(product)' v-bind:style='{ backgroundImage: \"url(\" + product.image + \")\" }' style='background-size: cover; background-position: center;'></div>" +

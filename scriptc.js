@@ -9993,11 +9993,33 @@ var vue = new Vue({
                     }
                 ],
                 description: "	Gutfels Wasserkocher | 1,7-Liter ",
-                details: " | 7 Flexible Handhabung | 2200 Watt |	Schutz vor Uberhitzung durch automatische Abschaltung und Trockengehschutz"
+                details: " 7 Flexible Handhabung | 2200 Watt |	Schutz vor Uberhitzung durch automatische Abschaltung und Trockengehschutz"
+            },
+                       {
+                sku: 2,
+                price: 79,
+                product: "HEISSLUFTFRITTEUSE",
+                image: "./h4.jpg",
+                images: [{
+                        image: "./h1.jpg",
+                        
+                    },
+                    {
+                        image: "./h2.jpg"
+                    },
+                    {
+                        image: "./h3.jpg"
+                    },
+                    {
+                        image: "./h5.jpg"
+                    }
+                ],
+                description: "	Gutfels Heißluftfritteuse  | 1300 Watt ",
+                details: " Energiesparend | Auf den Punkt genau: 80 – 200° C flexibel einstellbar |	Großes Korbvolumen von 2,7 Litern, z.B. für 4 Portionen Pommes"
             },
 
             {
-                sku: 2,
+                sku: 3,
                 product: "WAFFELEISEN",
                 price: 85,
                 image: "./wa4.jpg",

@@ -10154,7 +10154,7 @@ var vue = new Vue({
                     }
                 ],
                 description: "A+++ Exquisit Waschmaschine | 7 Kg",
-                details: " Waschmaschine mit Garantie | Originalverpackte Ware | H 85 cm; B 59,5сm; T 52,5сm | 1400 U/min |  A+++ alte Energieklasse | E neue Energieklasse | Lieferungen innerhalb von Berlin von 20€"
+                details: " Waschmaschine mit Garantie | Originalverpackte Ware | H 85 cm; B 59,5сm; T 52,5сm | 1400 U/min |  A+++ alte Energieklasse | D neue Energieklasse | Lieferungen innerhalb von Berlin von 20€"
             },        
 
 

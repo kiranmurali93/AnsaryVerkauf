@@ -9993,7 +9993,7 @@ var vue = new Vue({
                     }
                 ],
                 description: "	Gutfels Wasserkocher | 1,7-Liter ",
-                details: "Versand deutschland weit möglich |  7 Flexible Handhabung | 2200 Watt |	Schutz vor Uberhitzung durch automatische Abschaltung und Trockengehschutz | Lieferungen innerhalb von Berlin von 20€"
+                details: "Versand Deutschland weit möglich |  7 Flexible Handhabung | 2200 Watt |	Schutz vor Uberhitzung durch automatische Abschaltung und Trockengehschutz | Lieferungen innerhalb von Berlin von 20€"
             },
                        {
                 sku: 2,
@@ -10015,7 +10015,7 @@ var vue = new Vue({
                     }
                 ],
                 description: "	Gutfels Heißluftfritteuse  | 1300 Watt ",
-                details: "Versand deutschland weit möglich |  Energiesparend | Auf den Punkt genau: 80 – 200° C flexibel einstellbar |	Großes Korbvolumen von 2,7 Litern, z.B. für 4 Portionen Pommes | Lieferungen innerhalb von Berlin von 20€"
+                details: "Versand Deutschland weit möglich |  Energiesparend | Auf den Punkt genau: 80 – 200° C flexibel einstellbar |	Großes Korbvolumen von 2,7 Litern, z.B. für 4 Portionen Pommes | Lieferungen innerhalb von Berlin von 20€"
             },
 
             {
@@ -10037,7 +10037,7 @@ var vue = new Vue({
                     }
                 ],
                 description: "Gutfels Waffeleisen | 1600 Watt ",
-                details: "Versand deutschland weit möglich | Leicht zu reinigen durch vollflächige Beschichtung der Backplatten |  Integrierter Überhitzungsschutz für die maximale Nutzersicherheit |  Die integrierte Überlaufrinne für überschüssigen Teig hält die Küche sauber | Lieferungen innerhalb von Berlin von 20€ "
+                details: "Versand Deutschland weit möglich | Leicht zu reinigen durch vollflächige Beschichtung der Backplatten |  Integrierter Überhitzungsschutz für die maximale Nutzersicherheit |  Die integrierte Überlaufrinne für überschüssigen Teig hält die Küche sauber | Lieferungen innerhalb von Berlin von 20€ "
             },
                         {
                 sku: 4,
@@ -10052,7 +10052,7 @@ var vue = new Vue({
                     }
                 ],
                 description: "Gutfels Toaster ",
-                details: " Versand deutschland weit möglich | Integrierte Zentrierfunktion für besonders gleichmäßige Bräunung | Perfektes Toast-Ergebnis auch bei tiefgekühltem Brot |  Der Höhenlift ermöglicht ein sicheres und einfaches Entnehmen nach dem Toasten | Lieferungen innerhalb von Berlin von 20€"
+                details: " Versand Deutschland weit möglich | Integrierte Zentrierfunktion für besonders gleichmäßige Bräunung | Perfektes Toast-Ergebnis auch bei tiefgekühltem Brot |  Der Höhenlift ermöglicht ein sicheres und einfaches Entnehmen nach dem Toasten | Lieferungen innerhalb von Berlin von 20€"
             },
             {
                 sku: 5,

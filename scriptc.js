@@ -10120,7 +10120,42 @@ var vue = new Vue({
                 description: "A++ Exquisit Kühlschrank | Gefrier/No Frost ",
                 details: " Kühlschrank mit Garantie | Originalverpackte Ware | H 180 cm; B 55сm; T 59сm |  A++ alte Energieklasse | E neue Energieklasse | No Frost = Abtauautomatik | Lieferungen innerhalb von Berlin von 20€"
             },
-
+            {
+                sku: 9,
+                product: "SIEMENS WASCHMASCHINE",
+                price: 299,
+                image: "./was1.jpg",
+                images: [{
+                        image: "./was2.jpg"
+                    },
+                    {
+                        image: "./was3.jpg"
+                    },
+                    {
+                        image: "./was4.jpg"
+                    }
+                ],
+                description: "A+++ Siemens Waschmaschine | 7 Kg",
+                details: " Waschmaschine mit Garantie | Originalverpackte Ware | H 85 cm; B 60сm; T 54сm |  A+++ alte Energieklasse | Lieferungen innerhalb von Berlin von 20€"
+            },
+                {
+                sku: 10,
+                product: "EXQUISIT WASCHMASCHINE",
+                price: 299,
+                image: "./exwas1.jpg",
+                images: [{
+                        image: "./exwas2.jpg"
+                    },
+                    {
+                        image: "./exwas3.jpg"
+                    },
+                    {
+                        image: "./exwas4.jpg"
+                    }
+                ],
+                description: "A+++ Exquisit Waschmaschine | 7 Kg",
+                details: " Waschmaschine mit Garantie | Originalverpackte Ware | H 85 cm; B 59,5сm; T 52,5сm | 1400 U/min |  A+++ alte Energieklasse | E neue Energieklasse | Lieferungen innerhalb von Berlin von 20€"
+            },        
 
 
 

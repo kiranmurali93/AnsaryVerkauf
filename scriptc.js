@@ -10087,6 +10087,25 @@ var vue = new Vue({
                 description: "A++ Bosch Kühlschrank ",
                 details: " Kühlschrank mit Garantie | Originalverpackte Ware | H 200 cm; B 6Oсm; T64сm |  A++ alte Energieklasse | E neue Energieklasse | Lieferungen innerhalb von Berlin von 20€"
             },
+                          {
+                sku: 7,
+                product: "SIEMENS KÜHLSCHRANK",
+                price: 355,
+                image: "./S3.jpg",
+                images: [{
+                        image: "./S2.jpg"
+                    },
+                    {
+                        image: "./S3.jpg"
+                    },
+                         {
+                        image: "./S1.jpg"
+                    }
+                ],
+                description: "A++ Siemens Kühlschrank ",
+                details: " Kühlschrank mit Garantie | Originalverpackte Ware | H 185 cm; B 6Oсm; T64сm |  A++ Siemens Kühl und Gefrierkombination | Lieferungen innerhalb von Berlin von 20€"
+            },
+
 
 
 

@@ -10039,6 +10039,21 @@ var vue = new Vue({
                 description: "Gutfels Waffeleisen | 1600 Watt ",
                 details: "Leicht zu reinigen durch vollflächige Beschichtung der Backplatten |  Integrierter Überhitzungsschutz für die maximale Nutzersicherheit |  Die integrierte Überlaufrinne für überschüssigen Teig hält die Küche sauber "
             },
+            {
+                sku: 4,
+                product: "BOSCH KÜHLSCHRANK",
+                price: 525,
+                image: "./b1.jpg",
+                images: [{
+                        image: "./b2.jpg"
+                    },
+                    {
+                        image: "./b3.jpg"
+                    }
+                ],
+                description: "A++ Bosch Kühlschrank ",
+                details: " Kühlschrank mit Garantie | H 185 cm; B 6Oсm; T64сm |  A++ alte Energieklasse | E neue Energieklasse | Lieferung 20€"
+            },
 
 
         ],

@@ -9993,7 +9993,7 @@ var vue = new Vue({
                     }
                 ],
                 description: "	Gutfels Wasserkocher | 1,7-Liter ",
-                details: " 7 Flexible Handhabung | 2200 Watt |	Schutz vor Uberhitzung durch automatische Abschaltung und Trockengehschutz"
+                details: "Versand deutschland weit möglich |  7 Flexible Handhabung | 2200 Watt |	Schutz vor Uberhitzung durch automatische Abschaltung und Trockengehschutz | Lieferungen innerhalb von Berlin von 20€"
             },
                        {
                 sku: 2,
@@ -10015,7 +10015,7 @@ var vue = new Vue({
                     }
                 ],
                 description: "	Gutfels Heißluftfritteuse  | 1300 Watt ",
-                details: " Energiesparend | Auf den Punkt genau: 80 – 200° C flexibel einstellbar |	Großes Korbvolumen von 2,7 Litern, z.B. für 4 Portionen Pommes"
+                details: "Versand deutschland weit möglich |  Energiesparend | Auf den Punkt genau: 80 – 200° C flexibel einstellbar |	Großes Korbvolumen von 2,7 Litern, z.B. für 4 Portionen Pommes | Lieferungen innerhalb von Berlin von 20€"
             },
 
             {
@@ -10037,10 +10037,25 @@ var vue = new Vue({
                     }
                 ],
                 description: "Gutfels Waffeleisen | 1600 Watt ",
-                details: "Leicht zu reinigen durch vollflächige Beschichtung der Backplatten |  Integrierter Überhitzungsschutz für die maximale Nutzersicherheit |  Die integrierte Überlaufrinne für überschüssigen Teig hält die Küche sauber "
+                details: "Versand deutschland weit möglich | Leicht zu reinigen durch vollflächige Beschichtung der Backplatten |  Integrierter Überhitzungsschutz für die maximale Nutzersicherheit |  Die integrierte Überlaufrinne für überschüssigen Teig hält die Küche sauber | Lieferungen innerhalb von Berlin von 20€ "
+            },
+                        {
+                sku: 4,
+                product: "TOASTER",
+                price: 49,
+                image: "./t1.jpg",
+                images: [{
+                        image: "./t2.jpg"
+                    },
+                    {
+                        image: "./t3.jpg"
+                    }
+                ],
+                description: "Gutfels Toaster ",
+                details: " Versand deutschland weit möglich | Integrierte Zentrierfunktion für besonders gleichmäßige Bräunung | Perfektes Toast-Ergebnis auch bei tiefgekühltem Brot |  Der Höhenlift ermöglicht ein sicheres und einfaches Entnehmen nach dem Toasten | Lieferungen innerhalb von Berlin von 20€"
             },
             {
-                sku: 4,
+                sku: 5,
                 product: "BOSCH KÜHLSCHRANK",
                 price: 525,
                 image: "./b1.jpg",
@@ -10052,8 +10067,27 @@ var vue = new Vue({
                     }
                 ],
                 description: "A++ Bosch Kühlschrank ",
-                details: " Kühlschrank mit Garantie | H 185 cm; B 6Oсm; T64сm |  A++ alte Energieklasse | E neue Energieklasse | Lieferung 20€"
+                details: " Kühlschrank mit Garantie | H 185 cm; B 6Oсm; T64сm |  A++ alte Energieklasse | E neue Energieklasse | Lieferungen innerhalb von Berlin von 20€"
             },
+                       {
+                sku: 6,
+                product: "BOSCH KÜHLSCHRANK",
+                price: 525,
+                image: "./bo4.jpg",
+                images: [{
+                        image: "./bo2.jpg"
+                    },
+                    {
+                        image: "./bo3.jpg"
+                    },
+                         {
+                        image: "./bo1.jpg"
+                    }
+                ],
+                description: "A++ Bosch Kühlschrank ",
+                details: " Kühlschrank mit Garantie | Originalverpackte Ware | H 200 cm; B 6Oсm; T64сm |  A++ alte Energieklasse | E neue Energieklasse | Lieferungen innerhalb von Berlin von 20€"
+            },
+
 
 
         ],

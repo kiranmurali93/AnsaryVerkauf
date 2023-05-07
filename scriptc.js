@@ -10085,7 +10085,7 @@ var vue = new Vue({
                     }
                 ],
                 description: "A++ Bosch Kühlschrank ",
-                details: " Kühlschrank mit Garantie | Originalverpackte Ware | H 200 cm; B 6Oсm; T64сm |  A++ alte Energieklasse | E neue Energieklasse | Lieferungen innerhalb von Berlin von 20€"
+                details: " Kühlschrank mit Garantie | Originalverpackte Ware | H 200 cm; B 6Oсm; T 64сm |  A++ alte Energieklasse | E neue Energieklasse | Lieferungen innerhalb von Berlin von 20€"
             },
                           {
                 sku: 7,
@@ -10103,7 +10103,22 @@ var vue = new Vue({
                     }
                 ],
                 description: "A++ Siemens Kühlschrank ",
-                details: " Kühlschrank mit Garantie | Originalverpackte Ware | H 185 cm; B 6Oсm; T64сm |  A++ Siemens Kühl und Gefrierkombination | Lieferungen innerhalb von Berlin von 20€"
+                details: " Kühlschrank mit Garantie | Originalverpackte Ware | H 185 cm; B 6Oсm; T 64сm |  A++ Siemens Kühl und Gefrierkombination | Lieferungen innerhalb von Berlin von 20€"
+            },
+                 {
+                sku: 8,
+                product: "EXQUISIT KÜHLSCHRANK",
+                price: 440,
+                image: "./ex1.jpg",
+                images: [{
+                        image: "./ex2.jpg"
+                    },
+                    {
+                        image: "./ex3.jpg"
+                    }
+                ],
+                description: "A++ Exquisit Kühlschrank | Gefrier/No Frost ",
+                details: " Kühlschrank mit Garantie | Originalverpackte Ware | H 180 cm; B 55сm; T 59сm |  A++ alte Energieklasse | E neue Energieklasse | No Frost = Abtauautomatik | Lieferungen innerhalb von Berlin von 20€"
             },
 
 

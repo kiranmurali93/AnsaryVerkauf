@@ -10096,7 +10096,7 @@ var vue = new Vue({
                         image: "./S2.jpg"
                     },
                     {
-                        image: "./S3.jpg"
+                        image: "./S4.jpg"
                     },
                          {
                         image: "./S1.jpg"

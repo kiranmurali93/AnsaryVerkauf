@@ -10069,7 +10069,7 @@ var vue = new Vue({
                 description: "A++ Bosch Kühlschrank ",
                 details: " Kühlschrank mit Garantie | H 185 cm; B 6Oсm; T64сm |  A++ alte Energieklasse | E neue Energieklasse | Lieferungen innerhalb von Berlin von 20€"
             },
-                       {
+                     /*  {
                 sku: 6,
                 product: "BOSCH KÜHLSCHRANK",
                 price: 525,
@@ -10137,7 +10137,7 @@ var vue = new Vue({
                 ],
                 description: "A+++ Siemens Waschmaschine | 7 Kg",
                 details: " Waschmaschine mit Garantie | Originalverpackte Ware | H 85 cm; B 60сm; T 54сm |  A+++ alte Energieklasse | Lieferungen innerhalb von Berlin von 20€"
-            },
+            }, */
                 {
                 sku: 10,
                 product: "EXQUISIT WASCHMASCHINE",

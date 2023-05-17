@@ -10058,12 +10058,12 @@ var vue = new Vue({
                 sku: 5,
                 product: "BOSCH KÜHLSCHRANK",
                 price: 525,
-                image: "./b1.jpg",
+                image: "./rettt1.jpg",
                 images: [{
-                        image: "./b2.jpg"
+                        image: "./rettt2.jpg"
                     },
                     {
-                        image: "./b3.jpg"
+                        image: "./rettt3.jpg"
                     }
                 ],
                 description: "A++ Bosch Kühlschrank ",

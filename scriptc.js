@@ -10330,7 +10330,7 @@ var vue = new Vue({
                         image: "./ba4.jpg"
                     }
                 ],
-                description: "A++ Bomann Kühlschrank | NUR 168 kwh/Jahr ",
+                description: "A++ Bomann Kühlschrank",
                 details: " Kühlschrank mit Garantie | Originalverpackte Ware | H 143 cm; B 50cm; T 56сm |  A++ alte Energieklasse | D neue Energieklasse | Lieferungen innerhalb von Berlin von 20€"
             },
                  {    sku: 21,
@@ -10347,7 +10347,7 @@ var vue = new Vue({
                         image: "./baa4.jpg"
                     }
                 ],
-                description: "A++ Bomann Kühlschrank | NUR 168 kwh/Jahr ",
+                description: "A++ Bomann Kühlschrank ",
                 details: " Kühlschrank mit Garantie | Originalverpackte Ware | H 143 cm; B 50cm; T 56сm |  A++ alte Energieklasse | D neue Energieklasse | Lieferungen innerhalb von Berlin von 20€"
             },
                    

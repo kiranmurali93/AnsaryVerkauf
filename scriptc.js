@@ -10156,7 +10156,24 @@ var vue = new Vue({
                 description: "A+++ Exquisit Waschmaschine | 7 Kg",
                 details: " Waschmaschine mit Garantie | Originalverpackte Ware | H 85 cm; B 59,5сm; T 52,5сm | 1400 U/min |  A+++ alte Energieklasse | D neue Energieklasse | Lieferungen innerhalb von Berlin von 20€"
             },        
-
+{
+                sku: 11,
+                product: "EXQUISIT KÜHLSCHRANK",
+                price: 450,
+                image: "./re1.jpg",
+                images: [{
+                        image: "./re2.jpg"
+                    },
+                    {
+                        image: ".re3.jpg"
+                    },
+                    {
+                        image: "./re4.jpg"
+                    }
+                ],
+                description: "A++ Exquisit Kühlschrank ",
+                details: " Kühlschrank mit Garantie | Originalverpackte Ware | H 146,5 cm; B 54,5cm; T 57,5сm |  A++ alte Energieklasse | E neue Energieklasse | Lieferungen innerhalb von Berlin von 20€"
+            },
 
 
         ],

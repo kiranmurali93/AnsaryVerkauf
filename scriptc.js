@@ -6,7 +6,7 @@
 (function(global, factory) {
     typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory() :
         typeof define === 'function' && define.amd ? define(factory) :
-        global.Vue = factory();
+        global.Vue = factory(); 
 }(this, function() {
     'use strict';
 
@@ -10169,6 +10169,42 @@ var vue = new Vue({
                     },
                     {
                         image: "./re4.jpg"
+                    }
+                ],
+                description: "A++ Exquisit Kühlschrank ",
+                details: " Kühlschrank mit Garantie | Originalverpackte Ware | H 146,5 cm; B 54,5cm; T 57,5сm |  A++ alte Energieklasse | E neue Energieklasse | Lieferungen innerhalb von Berlin von 20€"
+            },
+                       {
+                sku: 12,
+                product: "EXQUISIT KÜHLSCHRANK",
+                price: 399,
+                image: "./ret1.jpg",
+                images: [{
+                        image: "./ret2.jpg"
+                    },
+                    {
+                        image: ".ret3.jpg"
+                    },
+                    {
+                        image: "./ret4.jpg"
+                    }
+                ],
+                description: "A++ Exquisit Kühlschrank ",
+                details: " Kühlschrank mit Garantie | Originalverpackte Ware | H 146,5 cm; B 54,5cm; T 57,5сm |  A++ alte Energieklasse | E neue Energieklasse | Lieferungen innerhalb von Berlin von 20€"
+            },
+                                  {
+                sku: 13,
+                product: "EXQUISIT KÜHLSCHRANK",
+                price: 399,
+                image: "./rett1.jpg",
+                images: [{
+                        image: "./rett2.jpg"
+                    },
+                    {
+                        image: ".rett3.jpg"
+                    },
+                    {
+                        image: "./rett4.jpg"
                     }
                 ],
                 description: "A++ Exquisit Kühlschrank ",

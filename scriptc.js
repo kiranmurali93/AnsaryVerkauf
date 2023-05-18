@@ -9973,8 +9973,54 @@ var vue = new Vue({
     el: "#vue",
 
     data: {
-        productsData: [{
+        productsData: [
+            {
                 sku: 1,
+                price: 79,
+                product: "KÜCHENMASCHINE",
+                image: "./g1.jpg",
+                images: [{
+                        image: "./g2.jpg",
+                        
+                    },
+                    {
+                        image: "./g3.jpg"
+                    },
+                    {
+                        image: "./g4.jpg"
+                    }
+                ],
+                description: "	Gutfels Küchenmaschine  ",
+                details: "Versand Deutschland weit möglich | Neuware mit 2 Jahre Garantie | 10 Geschwindigkeitsstufen | Kneten, Rühren, Mischen und Mengen | Umfangreiches Zubehör | Lieferungen innerhalb von Berlin von 20€"
+            },
+            
+            {
+             sku: 2,
+                price: 69,
+                product: "KÜCHENMASCHINE",
+                image: "./ga1.jpg",
+                images: [{
+                        image: "./ga2.jpg",
+                        
+                    },
+                    {
+                        image: "./ga3.jpg"
+                    },
+                    {
+                        image: "./ga4.jpg"
+                    }
+                ],
+                description: "Exquisit Küchenmaschine  ",
+                details: "Versand Deutschland weit möglich | Neuware mit 2 Jahre Garantie | 8 Geschwindigkeitsstufen | Kneten, Rühren, Mischen und Mengen | Umfangreiches Zubehör | Lieferungen innerhalb von Berlin von 20€"
+            },
+              
+              
+            
+            
+            
+            
+            {
+                sku: 3,
                 price: 49,
                 product: "WASSERKOCHER",
                 image: "./w4.jpg",
@@ -9987,16 +10033,13 @@ var vue = new Vue({
                     },
                     {
                         image: "./w3.jpg"
-                    },
-                    {
-                        image: "#"
                     }
                 ],
                 description: "	Gutfels Wasserkocher | 1,7-Liter ",
                 details: "Versand Deutschland weit möglich |  7 Flexible Handhabung | 2200 Watt |	Schutz vor Uberhitzung durch automatische Abschaltung und Trockengehschutz | Lieferungen innerhalb von Berlin von 20€"
             },
                        {
-                sku: 2,
+                sku: 4,
                 price: 79,
                 product: "HEISSLUFTFRITTEUSE",
                 image: "./h4.jpg",
@@ -10019,7 +10062,7 @@ var vue = new Vue({
             },
 
             {
-                sku: 3,
+                sku: 5,
                 product: "WAFFELEISEN",
                 price: 85,
                 image: "./wa4.jpg",
@@ -10040,7 +10083,7 @@ var vue = new Vue({
                 details: "Versand Deutschland weit möglich | Leicht zu reinigen durch vollflächige Beschichtung der Backplatten |  Integrierter Überhitzungsschutz für die maximale Nutzersicherheit |  Die integrierte Überlaufrinne für überschüssigen Teig hält die Küche sauber | Lieferungen innerhalb von Berlin von 20€ "
             },
                         {
-                sku: 4,
+                sku: 6,
                 product: "TOASTER",
                 price: 49,
                 image: "./t1.jpg",
@@ -10054,92 +10097,8 @@ var vue = new Vue({
                 description: "Gutfels Toaster ",
                 details: " Versand Deutschland weit möglich | Integrierte Zentrierfunktion für besonders gleichmäßige Bräunung | Perfektes Toast-Ergebnis auch bei tiefgekühltem Brot |  Der Höhenlift ermöglicht ein sicheres und einfaches Entnehmen nach dem Toasten | Lieferungen innerhalb von Berlin von 20€"
             },
-            {
-                sku: 5,
-                product: "BOSCH KÜHLSCHRANK",
-                price: 525,
-                image: "./rettt1.jpg",
-                images: [{
-                        image: "./rettt2.jpg"
-                    },
-                    {
-                        image: "./rettt3.jpg"
-                    }
-                ],
-                description: "A++ Bosch Kühlschrank ",
-                details: " Kühlschrank mit Garantie |     H 185 cm; B 6Oсm; T64сm |  A++ alte Energieklasse | E neue Energieklasse | Lieferungen innerhalb von Berlin von 20€"
-            },
-                     /*  {
-                sku: 6,
-                product: "BOSCH KÜHLSCHRANK",
-                price: 525,
-                image: "./bo4.jpg",
-                images: [{
-                        image: "./bo2.jpg"
-                    },
-                    {
-                        image: "./bo3.jpg"
-                    },
-                         {
-                        image: "./bo1.jpg"
-                    }
-                ],
-                description: "A++ Bosch Kühlschrank ",
-                details: " Kühlschrank mit Garantie | Originalverpackte Ware |     H 200 cm; B 6Oсm; T 64сm |  A++ alte Energieklasse | E neue Energieklasse | Lieferungen innerhalb von Berlin von 20€"
-            },
-                          {
+                        {
                 sku: 7,
-                product: "SIEMENS KÜHLSCHRANK",
-                price: 355,
-                image: "./S3.jpg",
-                images: [{
-                        image: "./S2.jpg"
-                    },
-                    {
-                        image: "./S4.jpg"
-                    },
-                         {
-                        image: "./S1.jpg"
-                    }
-                ],
-                description: "A++ Siemens Kühlschrank ",
-                details: " Kühlschrank mit Garantie | Originalverpackte Ware |     H 185 cm; B 6Oсm; T 64сm |  A++ Siemens Kühl und Gefrierkombination | Lieferungen innerhalb von Berlin von 20€"
-            },
-                 {
-                sku: 8,
-                product: "EXQUISIT KÜHLSCHRANK",
-                price: 440,
-                image: "./ex1.jpg",
-                images: [{
-                        image: "./ex2.jpg"
-                    },
-                    {
-                        image: "./ex3.jpg"
-                    }
-                ],
-                description: "A++ Exquisit Kühlschrank | Gefrier/No Frost ",
-                details: " Kühlschrank mit Garantie | Originalverpackte Ware |     H 180 cm; B 55сm; T 59сm |  A++ alte Energieklasse | E neue Energieklasse | No Frost = Abtauautomatik | Lieferungen innerhalb von Berlin von 20€"
-            },
-            {
-                sku: 9,
-                product: "SIEMENS WASCHMASCHINE",
-                price: 299,
-                image: "./was1.jpg",
-                images: [{
-                        image: "./was2.jpg"
-                    },
-                    {
-                        image: "./was3.jpg"
-                    },
-                    {
-                        image: "./was4.jpg"
-                    }
-                ],
-                description: "A+++ Siemens Waschmaschine | 7 Kg",
-                details: " Waschmaschine mit Garantie | Originalverpackte Ware |     H 85 cm; B 60сm; T 54сm |  A+++ alte Energieklasse | Lieferungen innerhalb von Berlin von 20€"
-            }, */
-                {
-                sku: 6,
                 product: "EXQUISIT WASCHMASCHINE",
                 price: 299,
                 image: "./exwas1.jpg",
@@ -10155,9 +10114,44 @@ var vue = new Vue({
                 ],
                 description: "A+++ Exquisit Waschmaschine | 7 Kg",
                 details: " Waschmaschine mit Garantie | Originalverpackte Ware |     H 85 cm; B 59,5сm; T 52,5сm | 1400 U/min |  A+++ alte Energieklasse | D neue Energieklasse | Lieferungen innerhalb von Berlin von 20€"
-            },        
+            },  
+                           {
+                sku: 8,
+                product: "BOMANN WASCHMASCHINE",
+                price: 315,
+                image: "./wx1.jpg",
+                images: [{
+                        image: "./wx2.jpg"
+                    },
+                    {
+                        image: "./wxs3.jpg"
+                    }
+                ],
+                description: "A+++ Bomann Waschmaschine | 7 Kg",
+                details: " Waschmaschine mit Garantie | Originalverpackte Ware |     H 85 cm; B 59,5сm; T 47сm | A+++ alte Energieklasse | C neue Energieklasse | Lieferungen innerhalb von Berlin von 20€"
+            },  
+                 
+                       
+                       
+            {
+                sku: 9,
+                product: "BOSCH KÜHLSCHRANK",
+                price: 525,
+                image: "./rettt1.jpg",
+                images: [{
+                        image: "./rettt2.jpg"
+                    },
+                    {
+                        image: "./rettt3.jpg"
+                    }
+                ],
+                description: "A++ Bosch Kühlschrank ",
+                details: " Kühlschrank mit Garantie |     H 185 cm; B 6Oсm; T64сm |  A++ alte Energieklasse | E neue Energieklasse | Lieferungen innerhalb von Berlin von 20€"
+            },
+                    
+                     
 {
-                sku: 7,
+                sku: 10,
                 product: "EXQUISIT KÜHLSCHRANK",
                 price: 450,
                 image: "./re1.jpg",
@@ -10175,7 +10169,7 @@ var vue = new Vue({
                 details: " Kühlschrank mit Garantie | Originalverpackte Ware |     H 146,5 cm; B 54,5cm; T 57,5сm |  A++ alte Energieklasse | E neue Energieklasse | Lieferungen innerhalb von Berlin von 20€"
             },
                        {
-                sku: 8,
+                sku: 11,
                 product: "EXQUISIT KÜHLSCHRANK",
                 price: 399,
                 image: "./ret1.jpg",
@@ -10193,7 +10187,7 @@ var vue = new Vue({
                 details: " Kühlschrank mit Garantie | Originalverpackte Ware |     H 146,5 cm; B 54,5cm; T 57,5сm |  A++ alte Energieklasse | E neue Energieklasse | Lieferungen innerhalb von Berlin von 20€"
             },
                                   {
-                sku: 9,
+                sku: 12,
                 product: "EXQUISIT KÜHLSCHRANK",
                 price: 399,
                 image: "./rett1.jpg",
@@ -10212,7 +10206,7 @@ var vue = new Vue({
             },
 
                                   {
-                sku: 10,
+                sku: 13,
                 product: "EXQUISIT KÜHLSCHRANK",
                 price: 399,
                 image: "./ku1.jpg",
@@ -10230,7 +10224,7 @@ var vue = new Vue({
                 details: " Kühlschrank mit Garantie | Originalverpackte Ware |     H 146,5 cm; B 54,5cm; T 57,5сm |  A++ alte Energieklasse | E neue Energieklasse | Lieferungen innerhalb von Berlin von 20€"
             },
                                                          {
-                sku: 11,
+                sku: 14,
                 product: "EXQUISIT KÜHLSCHRANK",
                 price: 399,
                 image: "./kg1.jpg",
@@ -10247,7 +10241,7 @@ var vue = new Vue({
                 description: "A++ Exquisit Kühlschrank ",
                 details: " Kühlschrank mit Garantie | Originalverpackte Ware |     H 146,5 cm; B 54,5cm; T 57,5сm |  A++ alte Energieklasse | E neue Energieklasse | Lieferungen innerhalb von Berlin von 20€"
             },
-               {    sku: 12,
+               {    sku: 15,
                 product: "BOMANN KÜHLSCHRANK",
                 price: 299,
                 image: "./bg1.jpg",
@@ -10264,7 +10258,7 @@ var vue = new Vue({
                 description: "A++ Bomann Kühlschrank ",
                 details: " Kühlschrank mit Garantie | Originalverpackte Ware |      H 143 cm; B 50cm; T 56сm |  A++ alte Energieklasse | E neue Energieklasse | Lieferungen innerhalb von Berlin von 20€"
             },
-                        {    sku: 13,
+                        {    sku: 16,
                 product: "BOMANN KÜHLSCHRANK",
                 price: 399,
                 image: "./bgg1.jpg",
@@ -10281,7 +10275,7 @@ var vue = new Vue({
                 description: "A+++ Bomann Kühlschrank | NUR 168 kwh/Jahr ",
                 details: " Kühlschrank mit Garantie | Originalverpackte Ware |     H 180 cm; B 55cm; T 56сm |  A+++ alte Energieklasse | D neue Energieklasse | Lieferungen innerhalb von Berlin von 20€"
             },
-                       {    sku: 14,
+                       {    sku: 17,
                 product: "BOMANN KÜHLSCHRANK",
                 price: 399,
                 image: "./bgc1.jpg",
@@ -10298,7 +10292,7 @@ var vue = new Vue({
                 description: "A+++ Bomann Kühlschrank | NUR 168 kwh/Jahr ",
                 details: " Kühlschrank mit Garantie | Originalverpackte Ware |     H 180 cm; B 55cm; T 56сm |  A+++ alte Energieklasse | D neue Energieklasse | Lieferungen innerhalb von Berlin von 20€"
             },
-                         {    sku: 15,
+                         {    sku: 18,
                 product: "EXQUISIT KÜHLSCHRANK",
                 price: 299,
                 image: "./e1.jpg",
@@ -10316,7 +10310,7 @@ var vue = new Vue({
                 details: " Kühlschrank mit Garantie | Originalverpackte Ware |      H 144 cm; B 50cm; T 56сm |  A++ alte Energieklasse | E neue Energieklasse | Lieferungen innerhalb von Berlin von 20€"
             },
                        
-                    {    sku: 16,
+                    {    sku: 19,
                 product: "BOMANN KÜHLSCHRANK",
                 price: 299,
                 image: "./ba1.jpg",
@@ -10333,7 +10327,7 @@ var vue = new Vue({
                 description: "A++ Bomann Kühlschrank",
                 details: " Kühlschrank mit Garantie | Originalverpackte Ware |     H 143 cm; B 50cm; T 56сm |  A++ alte Energieklasse | D neue Energieklasse | Lieferungen innerhalb von Berlin von 20€"
             },
-                 {    sku: 17,
+                 {    sku: 20,
                 product: "BOMANN KÜHLSCHRANK",
                 price: 299,
                 image: "./baa1.jpg",
@@ -10350,7 +10344,7 @@ var vue = new Vue({
                 description: "A++ Bomann Kühlschrank ",
                 details: " Kühlschrank mit Garantie | Originalverpackte Ware |     H 143 cm; B 50cm; T 56сm |  A++ alte Energieklasse | D neue Energieklasse | Lieferungen innerhalb von Berlin von 20€"
             },
-                       {    sku: 18,
+                       {    sku: 21,
                 product: "BOMANN KÜHLSCHRANK",
                 price: 399,
                 image: "./b1.jpg",

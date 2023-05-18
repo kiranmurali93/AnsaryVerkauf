@@ -10139,7 +10139,7 @@ var vue = new Vue({
                 details: " Waschmaschine mit Garantie | Originalverpackte Ware | H 85 cm; B 60сm; T 54сm |  A+++ alte Energieklasse | Lieferungen innerhalb von Berlin von 20€"
             }, */
                 {
-                sku: 10,
+                sku: 6,
                 product: "EXQUISIT WASCHMASCHINE",
                 price: 299,
                 image: "./exwas1.jpg",
@@ -10157,7 +10157,7 @@ var vue = new Vue({
                 details: " Waschmaschine mit Garantie | Originalverpackte Ware | H 85 cm; B 59,5сm; T 52,5сm | 1400 U/min |  A+++ alte Energieklasse | D neue Energieklasse | Lieferungen innerhalb von Berlin von 20€"
             },        
 {
-                sku: 11,
+                sku: 7,
                 product: "EXQUISIT KÜHLSCHRANK",
                 price: 450,
                 image: "./re1.jpg",
@@ -10175,7 +10175,7 @@ var vue = new Vue({
                 details: " Kühlschrank mit Garantie | Originalverpackte Ware | H 146,5 cm; B 54,5cm; T 57,5сm |  A++ alte Energieklasse | E neue Energieklasse | Lieferungen innerhalb von Berlin von 20€"
             },
                        {
-                sku: 12,
+                sku: 8,
                 product: "EXQUISIT KÜHLSCHRANK",
                 price: 399,
                 image: "./ret1.jpg",
@@ -10193,7 +10193,7 @@ var vue = new Vue({
                 details: " Kühlschrank mit Garantie | Originalverpackte Ware | H 146,5 cm; B 54,5cm; T 57,5сm |  A++ alte Energieklasse | E neue Energieklasse | Lieferungen innerhalb von Berlin von 20€"
             },
                                   {
-                sku: 13,
+                sku: 9,
                 product: "EXQUISIT KÜHLSCHRANK",
                 price: 399,
                 image: "./rett1.jpg",
@@ -10212,7 +10212,7 @@ var vue = new Vue({
             },
 
                                   {
-                sku: 14,
+                sku: 10,
                 product: "EXQUISIT KÜHLSCHRANK",
                 price: 399,
                 image: "./ku1.jpg",
@@ -10230,7 +10230,7 @@ var vue = new Vue({
                 details: " Kühlschrank mit Garantie | Originalverpackte Ware | H 146,5 cm; B 54,5cm; T 57,5сm |  A++ alte Energieklasse | E neue Energieklasse | Lieferungen innerhalb von Berlin von 20€"
             },
                                                          {
-                sku: 15,
+                sku: 11,
                 product: "EXQUISIT KÜHLSCHRANK",
                 price: 399,
                 image: "./kg1.jpg",
@@ -10247,7 +10247,7 @@ var vue = new Vue({
                 description: "A++ Exquisit Kühlschrank ",
                 details: " Kühlschrank mit Garantie | Originalverpackte Ware | H 146,5 cm; B 54,5cm; T 57,5сm |  A++ alte Energieklasse | E neue Energieklasse | Lieferungen innerhalb von Berlin von 20€"
             },
-               {    sku: 16,
+               {    sku: 12,
                 product: "BOMANN KÜHLSCHRANK",
                 price: 299,
                 image: "./bg1.jpg",
@@ -10264,7 +10264,7 @@ var vue = new Vue({
                 description: "A++ Bomann Kühlschrank ",
                 details: " Kühlschrank mit Garantie | Originalverpackte Ware | H 143 cm; B 50cm; T 56сm |  A++ alte Energieklasse | E neue Energieklasse | Lieferungen innerhalb von Berlin von 20€"
             },
-                        {    sku: 17,
+                        {    sku: 13,
                 product: "BOMANN KÜHLSCHRANK",
                 price: 399,
                 image: "./bgg1.jpg",
@@ -10281,7 +10281,7 @@ var vue = new Vue({
                 description: "A+++ Bomann Kühlschrank | NUR 168 kwh/Jahr ",
                 details: " Kühlschrank mit Garantie | Originalverpackte Ware | H 180 cm; B 55cm; T 56сm |  A+++ alte Energieklasse | D neue Energieklasse | Lieferungen innerhalb von Berlin von 20€"
             },
-                       {    sku: 18,
+                       {    sku: 14,
                 product: "BOMANN KÜHLSCHRANK",
                 price: 399,
                 image: "./bgc1.jpg",
@@ -10298,7 +10298,7 @@ var vue = new Vue({
                 description: "A+++ Bomann Kühlschrank | NUR 168 kwh/Jahr ",
                 details: " Kühlschrank mit Garantie | Originalverpackte Ware | H 180 cm; B 55cm; T 56сm |  A+++ alte Energieklasse | D neue Energieklasse | Lieferungen innerhalb von Berlin von 20€"
             },
-                         {    sku: 19,
+                         {    sku: 15,
                 product: "EXQUISIT KÜHLSCHRANK",
                 price: 299,
                 image: "./e1.jpg",
@@ -10316,7 +10316,7 @@ var vue = new Vue({
                 details: " Kühlschrank mit Garantie | Originalverpackte Ware | H 144 cm; B 50cm; T 56сm |  A++ alte Energieklasse | E neue Energieklasse | Lieferungen innerhalb von Berlin von 20€"
             },
                        
-                    {    sku: 20,
+                    {    sku: 16,
                 product: "BOMANN KÜHLSCHRANK",
                 price: 299,
                 image: "./ba1.jpg",
@@ -10333,7 +10333,7 @@ var vue = new Vue({
                 description: "A++ Bomann Kühlschrank",
                 details: " Kühlschrank mit Garantie | Originalverpackte Ware | H 143 cm; B 50cm; T 56сm |  A++ alte Energieklasse | D neue Energieklasse | Lieferungen innerhalb von Berlin von 20€"
             },
-                 {    sku: 21,
+                 {    sku: 17,
                 product: "BOMANN KÜHLSCHRANK",
                 price: 299,
                 image: "./baa1.jpg",
@@ -10350,7 +10350,24 @@ var vue = new Vue({
                 description: "A++ Bomann Kühlschrank ",
                 details: " Kühlschrank mit Garantie | Originalverpackte Ware | H 143 cm; B 50cm; T 56сm |  A++ alte Energieklasse | D neue Energieklasse | Lieferungen innerhalb von Berlin von 20€"
             },
-                   
+                       {    sku: 18,
+                product: "BOMANN KÜHLSCHRANK",
+                price: 399,
+                image: "./b1.jpg",
+                images: [{ 
+                        image: "./b2.jpg"
+                    },
+                    {
+                        image: "./b3.jpg"
+                    },
+                    {
+                        image: "./b4.jpg"
+                    }
+                ],
+                description: "A++ Bomann Kühlschrank ",
+                details: " Kühlschrank mit Garantie | Originalverpackte Ware | H 143 cm; B 50cm; T 56сm |  A++ alte Energieklasse | D neue Energieklasse | Lieferungen innerhalb von Berlin von 20€"
+            },
+                    
 
 
         ],

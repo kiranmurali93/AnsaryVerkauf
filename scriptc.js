@@ -10124,7 +10124,10 @@ var vue = new Vue({
                         image: "./wx2.jpg"
                     },
                     {
-                        image: "./wxs3.jpg"
+                        image: "./wx3.jpg"
+                    },
+                    {
+                        image: "./wx1.jpg"
                     }
                 ],
                 description: "A+++ Bomann Waschmaschine | 7 Kg",

@@ -9978,7 +9978,7 @@ var vue = new Vue({
                 sku: 1,
                 price: 79,
                 product: "KÜCHENMASCHINE",
-                image: "./g1.jpg",
+                image: "./c1.jpg",
                 images: [{
                         image: "./g2.jpg",
                         
@@ -9998,7 +9998,7 @@ var vue = new Vue({
              sku: 2,
                 price: 69,
                 product: "KÜCHENMASCHINE",
-                image: "./ga1.jpg",
+                image: "./c2.jpg",
                 images: [{
                         image: "./ga2.jpg",
                         
@@ -10023,7 +10023,7 @@ var vue = new Vue({
                 sku: 3,
                 price: 49,
                 product: "WASSERKOCHER",
-                image: "./w4.jpg",
+                image: "./c3.jpg",
                 images: [{
                         image: "./w1.jpg",
                         
@@ -10042,7 +10042,7 @@ var vue = new Vue({
                 sku: 4,
                 price: 79,
                 product: "HEISSLUFTFRITTEUSE",
-                image: "./h4.jpg",
+                image: "./c4.jpg",
                 images: [{
                         image: "./h1.jpg",
                         
@@ -10065,7 +10065,7 @@ var vue = new Vue({
                 sku: 5,
                 product: "WAFFELEISEN",
                 price: 85,
-                image: "./wa4.jpg",
+                image: "./c5.jpg",
                 images: [{
                         image: "./wa1.jpg"
                     },
@@ -10086,7 +10086,7 @@ var vue = new Vue({
                 sku: 6,
                 product: "TOASTER",
                 price: 49,
-                image: "./t1.jpg",
+                image: "./c6.jpg",
                 images: [{
                         image: "./t2.jpg"
                     },
@@ -10101,7 +10101,7 @@ var vue = new Vue({
                 sku: 7,
                 product: "EXQUISIT WASCHMASCHINE",
                 price: 299,
-                image: "./exwas1.jpg",
+                image: "./c7.jpg",
                 images: [{
                         image: "./exwas2.jpg"
                     },
@@ -10119,7 +10119,7 @@ var vue = new Vue({
                 sku: 8,
                 product: "BOMANN WASCHMASCHINE",
                 price: 315,
-                image: "./wx1.jpg",
+                image: "./c8.jpg",
                 images: [{
                         image: "./wx2.jpg"
                     },
@@ -10172,7 +10172,7 @@ var vue = new Vue({
                 sku: 11,
                 product: "EXQUISIT KÜHLSCHRANK",
                 price: 399,
-                image: "./ret1.jpg",
+                image: "./c11.jpg",
                 images: [{
                         image: "./ret2.jpg"
                     },
@@ -10190,7 +10190,7 @@ var vue = new Vue({
                 sku: 12,
                 product: "EXQUISIT KÜHLSCHRANK",
                 price: 399,
-                image: "./rett1.jpg",
+                image: "./c12.jpg",
                 images: [{
                         image: "./rett2.jpg"
                     },
@@ -10209,7 +10209,7 @@ var vue = new Vue({
                 sku: 13,
                 product: "EXQUISIT KÜHLSCHRANK",
                 price: 399,
-                image: "./ku1.jpg",
+                image: "./c13.jpg",
                 images: [{
                         image: "./ku2.jpg"
                     },
@@ -10227,7 +10227,7 @@ var vue = new Vue({
                 sku: 14,
                 product: "EXQUISIT KÜHLSCHRANK",
                 price: 399,
-                image: "./kg1.jpg",
+                image: "./c14.jpg",
                 images: [{
                         image: "./kg2.jpg"
                     },
@@ -10244,7 +10244,7 @@ var vue = new Vue({
                {    sku: 15,
                 product: "BOMANN KÜHLSCHRANK",
                 price: 299,
-                image: "./bg1.jpg",
+                image: "./c15.jpg",
                 images: [{
                         image: "./bg2.jpg"
                     },

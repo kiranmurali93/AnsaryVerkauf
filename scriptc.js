@@ -10361,7 +10361,62 @@ var vue = new Vue({
                 description: "A++ Bomann Kühlschrank ",
                 details: " Kühlschrank mit Garantie | Originalverpackte Ware |      H 143 cm; B 50cm; T 56сm |  A++ alte Energieklasse | D neue Energieklasse | Lieferungen innerhalb von Berlin von 20€"
             },
-                    
+                  
+            
+               {    sku: 22,
+                product: "ROTIERENDE VORRATSBEHÄLTER",
+                price: 35,
+                image: "./sk22.jpg",
+                images: [{ 
+                        image: "./sk2201.jpg"
+                    },
+                    {
+                        image: "./sk2202.jpg"
+                    }
+                ],
+                description: "360-Grad-Rotationsdesign",
+                details: "Versand Deutschlandweit möglich | Box Getrennt versiegelter Müsli-Reistank-Spender Lebensmittelbehälter  Küchen-Organizer | Größe: 31cm x 26,3cm | Lieferungen innerhalb von Berlin von 20€"
+            },
+
+               {    sku: 23,
+                product: "BOMANN UNIVERSALMIXER",
+                price: 49,
+                image: "./sk23.jpg",
+                images: [{ 
+                        image: "./sk2301.jpg"
+                    },
+                    {
+                        image: "./sk2302.jpg"
+                    },
+                         {
+                        image: "./sk2303.jpg"
+                    }
+                ],
+                description: "3Edelstahl- Gehäuse | 650 Watt ",
+                details: "Versand Deutschlandweit möglich | Neuware mit 2 Jahre Garantie  |  Mischbehälter aus massivem Glas  |  inkl. ICE- Crush -Funktion  | Lieferungen innerhalb von Berlin von 20€"
+            },
+            
+            
+            {    sku: 24,
+                product: "BOSCH SERIE 8 WASCHMASCHINE",
+                price: 999,
+                image: "./sk24.jpg",
+                images: [{ 
+                        image: "./sk2401.jpg"
+                    },
+                    {
+                        image: "./sk2402.jpg"
+                    },
+                         {
+                        image: "./sk2403.jpg"
+                    },
+                         {
+                        image: "./sk2404.jpg"
+                    }
+                ],
+                description: "A neue Energieklasse | 10 Jahre Garantie auf den Motor!",
+                details: "Neuware mit 2 Jahre Garantie  |  H 85cm; B 59,5cm; T 60cm | Home Connect: Nutzbar via App  |Dampffunktion für fast bügelfreie Wäsche! | Lieferungen innerhalb von Berlin von 20€"
+            },
 
 
         ],

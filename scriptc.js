@@ -10421,6 +10421,63 @@ var vue = new Vue({
                 details: "Neuware mit 2 Jahre Garantie  |  H 85cm; B 59,5cm; T 60cm | Home Connect: Nutzbar via App  |Dampffunktion für fast bügelfreie Wäsche! | Lieferungen innerhalb von Berlin von 20€"
             },
 
+            {    sku: 25,
+                product: "WASSERKOCHER",
+                price: 20,
+                image: "./sk25.jpg",
+                images: [{ 
+                        image: "./sk2501.jpg"
+                    },
+                    {
+                        image: "./sk2502.jpg"
+                    },
+                         {
+                        image: "./sk2503.jpg"
+                    },
+                         {
+                        image: "./sk2504.jpg"
+                    }
+                ],
+                description: "Clatronic Wasserkocher |  2200 Watt max.",
+                details: "Versand Deutschlandweit möglich | Neuware mit 2 Jahre Garantie  |  Füllmenge 1,7 Liter max. | Edelstahlheizelement | Soft Touch-Griff | Lieferungen innerhalb von Berlin von 20€"
+            },
+            
+            {    sku: 26,
+                product: "WASSERKOCHER",
+                price: 20,
+                image: "./sk26.jpg",
+                images: [{ 
+                        image: "./sk2601.jpg"
+                    },
+                    {
+                        image: "./sk2602.jpg"
+                    },
+                         {
+                        image: "./sk2603.jpg"
+                    },
+                         {
+                        image: "./sk2604.jpg"
+                    }
+                ],
+                description: "Clatronic Wasserkocher |  2200 Watt max.",
+                details: "Versand Deutschlandweit möglich | Neuware mit 2 Jahre Garantie  |  Füllmenge 1,7 Liter max. | Edelstahlheizelement | Soft Touch-Griff | Lieferungen innerhalb von Berlin von 20€"
+            },
+            
+               {    sku: 27,
+                product: "WASSERKOCHER",
+                price: 25,
+                image: "./sk27.jpg",
+                images: [{ 
+                        image: "./sk2701.jpg"
+                    },
+                    {
+                        image: "./sk2702.jpg"
+                    }
+                ],
+                description: "Bomann Wasserkocher |  2200 Watt max.",
+                details: "Versand Deutschlandweit möglich | Neuware mit 2 Jahre Garantie  |  Füllmenge 1,7 Liter max. | Glas-/Edelstahlgehäuse | 360° drehbare Steckverbindung | Lieferungen innerhalb von Berlin von 20€"
+            },
+
 
         ],
         checkoutBool: false,

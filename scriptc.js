@@ -9635,8 +9635,8 @@ Vue.component('cart', {
         '<table>' +
         '</div>' +
         '<h4 class="cartSubTotal" v-show="showCart"> {{ cartSubTotal | currency }} </h4></div>' +
-        '<button class="clearCart" v-show="checkoutBool" @click="clearCart()"> Clear Cart </button>' +
-        '<button class="checkoutCart" v-show="checkoutBool" @click="propagateCheckout()"> Checkout </button>',
+        '<button class="clearCart" v-show="checkoutBool" @click="clearCart()">  Warenkorb leeren</button>' +
+        '<button class="checkoutCart" v-show="checkoutBool" @click="propagateCheckout()"> Kasse </button>',
 
     props: ['checkoutBool', 'cart', 'cartSize', 'cartSubTotal', 'tax', 'cartTotal'],
 
@@ -9750,10 +9750,10 @@ Vue.component('checkout-area', {
         '<thead>' +
         '<tr>' +
         '<th class="align-center">SKU</th>' +
-        '<th>Name</th>' +
-        '<th>Description</th>' +
-        '<th class="align-right">Amount</th>' +
-        '<th class="align-right">Price</th>' +
+        '<th>Artikel</th>' +
+        '<th>Beschreibung</th>' +
+        '<th class="align-right">Anzahl</th>' +
+        '<th class="align-right">Preis</th>' +
         '</tr>' +
         '</thead>' +
         '<tbody>' +
@@ -9776,7 +9776,7 @@ Vue.component('checkout-area', {
         '<td></td>' +
         '<td></td>' +
         '<td></td>' +
-        '<td class="align-right">Subtotal:</td>' +
+        '<td class="align-right">Zwischensumme:</td>' +
         '<td class="align-right"><h4 v-if="cartSubTotal != 0"> {{ cartSubTotal | currency }} </h4></td>' +
         '</tr>' +
         '<tr>' +
@@ -9790,36 +9790,35 @@ Vue.component('checkout-area', {
         '<td></td>' +
         '<td></td>' +
         '<td></td>' +
-        '<td class="align-right vert-bottom">Total:</td>' +
+        '<td class="align-right vert-bottom">Total (In. MwSt 19%):</td>' +
         '<td class="align-right vert-bottom"><h2 v-if="cartSubTotal != 0"> {{ cartTotal | currency }} </h2></td>' +
         '</tr>' +
         '</tbody>' +
         '</table>' +
-        '<button v-show="cartSubTotal" @click="checkoutModal()">Checkout</button></div>' +
+        '<button v-show="cartSubTotal" @click="checkoutModal()">Kasse</button></div>' +
         "<div class='modalWrapper' v-show='showModal'>" +
         "<div class='overlay' @click='hideModal()'></div>" +
         "<div class='modal checkout'>" +
         "<i class='close fa fa-times' @click='hideModal()'></i>" +
-        "<h1>Checkout</h1>" +
+        "<h1>Kasse</h1>" +
         "<div>We accept: <i class='fa fa-stripe'></i> <i class='fa fa-cc-visa'></i> <i class='fa fa-cc-mastercard'></i> <i class='fa fa-cc-amex'></i> <i class='fa fa-cc-discover'></i></div><br>" +
-        "<h3> Subtotal: {{ cartSubTotal | currency }} </h3>" +
-        "<h3> Tax: {{ cartTotal - cartSubTotal | currency }} </h4>" +
-        "<h1> Total: {{ cartTotal | currency }} </h3>" +
-        "<br><div>This is where our payment processor goes</div>" +
+        "<h3> Zwischensumme: {{ cartSubTotal | currency }} </h3>" +
+        "<h1> Total (In. MwSt 19%): {{ cartTotal | currency }} </h3>" +
+        "<br><div>Hier geht es zu unseren Zahlungsabwicklungen, wir werden uns bald mit Ihnen in Verbindung setzen! </div>" +
         "<table id='mytable'>" +
 
         "<tr>" +
-        " <td>Name:</td>" +
+        " <td>Artikel:</td>" +
         "<td><textarea type='text' id='name'></textarea>" +
         "</td>" +
         "</tr>" +
         "<tr>" +
-        " <td>Address:</td>" +
+        " <td>Adresse:</td>" +
         "<td><textarea type='text' id='address'></textarea>" +
         "</td>" +
         "</tr>" +
         "<tr>" +
-        " <td>Phone:</td>" +
+        " <td>Nummer :</td>" +
         "<td><textarea type='text' id='phone'></textarea>" +
         "</td>" +
         "</tr>" +
@@ -9833,7 +9832,7 @@ Vue.component('checkout-area', {
         "<br> <label>" +
         'By placing your order you are agree to our <a href="https://hotelnigara.in/termsandconditions.html" target="_blank">terms and conditions</a>.' +
         "<br> </label>" +
-        "<br><button id='confirm_button' @click='myFunction()'>Confirm Order</button>" +
+        "<br><button id='confirm_button' @click='myFunction()'> Bestätigen </button>" +
 "<br><div class='spinner'></div>"+
 
         "</div>",
@@ -9899,7 +9898,7 @@ Vue.component('checkout-area', {
             const cartData = JSON.stringify(this.cart)
 
             if (name.trim() == "") {
-                alert("Name cannot be empty!");
+                alert("Artikel cannot be empty!");
             } else if (address.trim() == "") {
                 alert("Address cannot be empty!");
             } else if (phone.trim() == "") {

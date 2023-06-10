@@ -9783,9 +9783,7 @@ Vue.component('checkout-area', {
         '<td></td>' +
         '<td></td>' +
         '<td></td>' +
-        '<td class="align-right">Tax:</td>' +
-        '<td class="align-right"><h4 v-if="cartSubTotal != 0"> {{ cartTotal - cartSubTotal | currency }} </h4></td>' +
-        '</tr>' +
+         '</tr>' +
         '<tr>' +
         '<td></td>' +
         '<td></td>' +
@@ -9808,7 +9806,7 @@ Vue.component('checkout-area', {
         "<table id='mytable'>" +
 
         "<tr>" +
-        " <td>Artikel:</td>" +
+        " <td>Name:</td>" +
         "<td><textarea type='text' id='name'></textarea>" +
         "</td>" +
         "</tr>" +
@@ -9824,7 +9822,7 @@ Vue.component('checkout-area', {
         "</tr>" +
         "<tr>" +
         " <td>e-mail:</td>" +
-        "<td><textarea type='mail' id='email'></textarea>" +
+        "<td><textarea type='mail' id='Email'></textarea>" +
         "</td>" +
         "</tr>" +
         "</table>" +
@@ -9898,7 +9896,7 @@ Vue.component('checkout-area', {
             const cartData = JSON.stringify(this.cart)
 
             if (name.trim() == "") {
-                alert("Artikel cannot be empty!");
+                alert("Name cannot be empty!");
             } else if (address.trim() == "") {
                 alert("Address cannot be empty!");
             } else if (phone.trim() == "") {

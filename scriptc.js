@@ -9743,7 +9743,7 @@ Vue.component('cart', {
 });
 
 Vue.component('checkout-area', {
-    template: "<h1>Checkout Area</h1>" +
+    template: "<h1>Warenkorb </h1>" +
         '<div class="checkout-area">' +
         '<span> {{ cart | cartSize }} </span><i class="fa fa-shopping-cart"></i>' +
         '<table>' +

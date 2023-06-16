@@ -10474,7 +10474,45 @@ var vue = new Vue({
                 description: "Bomann Wasserkocher |  2200 Watt max.",
                 details: "Versand Deutschlandweit möglich | Neuware mit 2 Jahre Garantie  |  Füllmenge 1,7 Liter max. | Glas-/Edelstahlgehäuse | 360° drehbare Steckverbindung | Lieferungen innerhalb von Berlin von 20€"
             },
-
+ 
+            {    sku: 28,
+                product: "EINBAUHERD & CERANFELD",
+                price: 395,
+                image: "./sk28.jpg",
+                images: [{ 
+                        image: "./sk2801.jpg"
+                    },
+                    {
+                        image: "./sk2802.jpg"
+                    },
+                    {
+                        image: "./sk2803.jpg"
+                    }
+                ],
+                description: "Exquisit |  Klasse.",
+                details: "Versand Deutschlandweit möglich | Neuware mit 2 Jahre Garantie  |  Einbauherd & Ceranfeld | Lieferungen innerhalb von Berlin von 20€"
+            },
+             
+            {    sku: 29,
+                product: "STANDHERD MIT CERANFELD ",
+                price: 375,
+                image: "./sk29.jpg",
+                images: [{ 
+                        image: "./sk2901.jpg"
+                    },
+                    {
+                        image: "./sk2902.jpg"
+                    },
+                    {
+                        image: "./sk2903.jpg"
+                    },
+                    {
+                        image: "./sk2904.jpg"
+                    }
+                ],
+                description: "A Klasse Exquisit |  Edelstahl-Design",
+                details: "Versand Deutschlandweit möglich | Neuware mit 2 Jahre Garantie  |  H: 83,0 cm; B:60,0cm; T:62,0cm | Umluft - für optimale Back- und Bratergebnisse | Glaskeramikkochfeld | Lieferungen innerhalb von Berlin von 20€"
+            },
 
         ],
         checkoutBool: false,

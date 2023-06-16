@@ -10330,7 +10330,7 @@ var vue = new Vue({
                  {    sku: 20,
                 product: "BOMANN KÜHLSCHRANK",
                 price: 299,
-                image: "./baa1.jpg",
+                image: "./c20.jpg",
                 images: [{ 
                         image: "./baa2.jpg"
                     },

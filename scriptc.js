@@ -10137,7 +10137,7 @@ var vue = new Vue({
                 sku: 9,
                 product: "BOSCH KÜHLSCHRANK",
                 price: 525,
-                image: "./rettt1.jpg",
+                image: "./c9.jpg",
                 images: [{
                         image: "./rettt2.jpg"
                     },
@@ -10261,7 +10261,7 @@ var vue = new Vue({
                         {    sku: 16,
                 product: "BOMANN KÜHLSCHRANK",
                 price: 399,
-                image: "./bgg1.jpg",
+                image: "./c16.jpg",
                 images: [{
                         image: "./bgg2.jpg"
                     },
@@ -10278,7 +10278,7 @@ var vue = new Vue({
                        {    sku: 17,
                 product: "BOMANN KÜHLSCHRANK",
                 price: 399,
-                image: "./bgc1.jpg",
+                image: "./c17.jpg",
                 images: [{
                         image: "./bgg2.jpg"
                     },

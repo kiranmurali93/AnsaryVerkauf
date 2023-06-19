@@ -10151,7 +10151,7 @@ var vue = new Vue({
                     
                      
 {
-                sku: 10,
+                sku: 10, 
                 product: "EXQUISIT KÜHLSCHRANK",
                 price: 450,
                 image: "./re1.jpg",

@@ -10292,25 +10292,8 @@ var vue = new Vue({
                 description: "A+++ Bomann Kühlschrank | NUR 168 kwh/Jahr ",
                 details: " Kühlschrank mit Garantie | Originalverpackte Ware |     H 180 cm; B 55cm; T 56сm |  A+++ alte Energieklasse | D neue Energieklasse | Lieferungen innerhalb von Berlin von 20€"
             },
-                         {    sku: 18,
-                product: "EXQUISIT KÜHLSCHRANK",
-                price: 299,
-                image: "./e1.jpg",
-                images: [{
-                        image: "./e2.jpg"
-                    },
-                    {
-                        image: "./e3.jpg"
-                    },
-                    {
-                        image: "./e4.jpg"
-                    }
-                ],
-                description: "A++ Exquisit Kühlschrank ",
-                details: " Kühlschrank mit Garantie | Originalverpackte Ware |      H 144 cm; B 50cm; T 56сm |  A++ alte Energieklasse | E neue Energieklasse | Lieferungen innerhalb von Berlin von 20€"
-            },
                        
-                    {    sku: 19,
+                    {    sku: 18,
                 product: "BOMANN KÜHLSCHRANK",
                 price: 299,
                 image: "./ba1.jpg",
@@ -10327,7 +10310,7 @@ var vue = new Vue({
                 description: "A++ Bomann Kühlschrank",
                 details: " Kühlschrank mit Garantie | Originalverpackte Ware |     H 143 cm; B 50cm; T 56сm |  A++ alte Energieklasse | D neue Energieklasse | Lieferungen innerhalb von Berlin von 20€"
             },
-                 {    sku: 20,
+                 {    sku: 19,
                 product: "BOMANN KÜHLSCHRANK",
                 price: 299,
                 image: "./c20.jpg",
@@ -10344,7 +10327,7 @@ var vue = new Vue({
                 description: "A++ Bomann Kühlschrank ",
                 details: " Kühlschrank mit Garantie | Originalverpackte Ware |     H 143 cm; B 50cm; T 56сm |  A++ alte Energieklasse | D neue Energieklasse | Lieferungen innerhalb von Berlin von 20€"
             },
-                       {    sku: 21,
+                       {    sku: 20,
                 product: "BOMANN KÜHLSCHRANK",
                 price: 399,
                 image: "./b1.jpg",
@@ -10363,7 +10346,7 @@ var vue = new Vue({
             },
                   
             
-               {    sku: 22,
+               {    sku: 21,
                 product: "ROTIERENDE VORRATSBEHÄLTER",
                 price: 35,
                 image: "./sk22.jpg",
@@ -10378,7 +10361,7 @@ var vue = new Vue({
                 details: "Versand Deutschlandweit möglich | Box Getrennt versiegelter Müsli-Reistank-Spender Lebensmittelbehälter  Küchen-Organizer | Größe: 31cm x 26,3cm | Lieferungen innerhalb von Berlin von 20€"
             },
 
-               {    sku: 23,
+               {    sku: 22,
                 product: "BOMANN UNIVERSALMIXER",
                 price: 49,
                 image: "./sk23.jpg",
@@ -10397,7 +10380,7 @@ var vue = new Vue({
             },
             
             
-            {    sku: 24,
+            {    sku: 23,
                 product: "BOSCH SERIE 8 WASCHMASCHINE",
                 price: 999,
                 image: "./sk24.jpg",
@@ -10418,7 +10401,7 @@ var vue = new Vue({
                 details: "Neuware mit 2 Jahre Garantie  |  H 85cm; B 59,5cm; T 60cm | Home Connect: Nutzbar via App  |Dampffunktion für fast bügelfreie Wäsche! | Lieferungen innerhalb von Berlin von 20€"
             },
 
-            {    sku: 25,
+            {    sku: 24,
                 product: "WASSERKOCHER",
                 price: 20,
                 image: "./sk25.jpg",
@@ -10439,7 +10422,7 @@ var vue = new Vue({
                 details: "Versand Deutschlandweit möglich | Neuware mit 2 Jahre Garantie  |  Füllmenge 1,7 Liter max. | Edelstahlheizelement | Soft Touch-Griff | Lieferungen innerhalb von Berlin von 20€"
             },
             
-            {    sku: 26,
+            {    sku: 25,
                 product: "WASSERKOCHER",
                 price: 20,
                 image: "./sk26.jpg",
@@ -10460,7 +10443,7 @@ var vue = new Vue({
                 details: "Versand Deutschlandweit möglich | Neuware mit 2 Jahre Garantie  |  Füllmenge 1,7 Liter max. | Edelstahlheizelement | Soft Touch-Griff | Lieferungen innerhalb von Berlin von 20€"
             },
             
-               {    sku: 27,
+               {    sku: 26,
                 product: "WASSERKOCHER",
                 price: 25,
                 image: "./sk27.jpg",
@@ -10475,7 +10458,7 @@ var vue = new Vue({
                 details: "Versand Deutschlandweit möglich | Neuware mit 2 Jahre Garantie  |  Füllmenge 1,7 Liter max. | Glas-/Edelstahlgehäuse | 360° drehbare Steckverbindung | Lieferungen innerhalb von Berlin von 20€"
             },
  
-            {    sku: 28,
+            {    sku: 27,
                 product: "EINBAUHERD & CERANFELD",
                 price: 395,
                 image: "./sk28.jpg",
@@ -10493,7 +10476,7 @@ var vue = new Vue({
                 details: "Versand Deutschlandweit möglich | Neuware mit 2 Jahre Garantie  |  Einbauherd & Ceranfeld | Lieferungen innerhalb von Berlin von 20€"
             },
              
-            {    sku: 29,
+            {    sku: 28,
                 product: "STANDHERD MIT CERANFELD ",
                 price: 375,
                 image: "./sk29.jpg",

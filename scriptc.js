@@ -10500,7 +10500,7 @@ var vue = new Vue({
             
             {    sku: 29,
                 product: "STAUBSAUGER ",
-                price: 7999,
+                price: 79,
                 image: "./sk30.jpg",
                 images: [{ 
                         image: "./sk3001.jpg"

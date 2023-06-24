@@ -10676,23 +10676,7 @@ var vue = new Vue({
             },
 
 
- {    sku: 38,
-                product: "STABMIXER-SET",
-                price: 34,99,
-                image: "./sk39.jpg",
-                images: [{ 
-                        image: "./sk3901.jpg"
-                    },
-                         { 
-                        image: "./sk3902.jpg"
-                    },
-                         { 
-                        image: "./sk3903.jpg"
-                    }
-                ],
-                description: "Bomann Stabmixer-Set |  200 Watt",
-                details: "Versand deutschlandweit möglich für 6,99€  | Neuware mit 2 Jahre Garantie  |  3 in 1- Stabmixer/ Schneebesen/ Multizerkleinerer | Kraftvoller Motor  |  Soft Touch-Gehäuse"
-            },
+
 
             
         ],

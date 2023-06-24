@@ -10496,7 +10496,38 @@ var vue = new Vue({
                 description: "A Klasse Exquisit |  Edelstahl-Design",
                 details: "Versand Deutschlandweit möglich | Neuware mit 2 Jahre Garantie  |  H: 83,0 cm; B:60,0cm; T:62,0cm | Umluft - für optimale Back- und Bratergebnisse | Glaskeramikkochfeld | Lieferungen innerhalb von Berlin von 20€"
             },
+            
+            
+            {    sku: 29,
+                product: "STAUBSAUGER ",
+                price: 7999,
+                image: "./sk30.jpg",
+                images: [{ 
+                        image: "./sk3001.jpg"
+                    },
+                    {
+                        image: "./sk3002.jpg"
+                    },
+                    {
+                        image: "./sk30003.jpg"
+                    },
+                    {
+                        image: "./sk30004.jpg"
+                    },
+                    {
+                        image: "./sk30005.jpg"
+                    }
+                ],
+                description: "Clatronic Staubsauger |  Metall- Teleskoprohr",
+                details: "deutschlandweiter Versand 6.99€  | Neuware mit 2 Jahre Garantie  |  Gummierte Laufrollen (ideal für empfindliche Böden) | Integriertes 3-fach Zubehör | Lieferungen innerhalb von Berlin von 20€"
+            },
 
+
+
+
+
+
+            
         ],
         checkoutBool: false,
         cart: [],

@@ -10559,6 +10559,105 @@ var vue = new Vue({
             },
 
 
+            
+            {    sku: 32,
+                product: "STAUBSAUGER ",
+                price: 69,
+                image: "./sk37.jpg",
+                images: [{ 
+                        image: "./sk3701.jpg"
+                    },
+                    {
+                        image: "./sk7202.jpg"
+                    },
+                    {
+                        image: "./sk3703.jpg"
+                    }
+                ],
+                description: "Clatronic Staubsauger |  Metall- Teleskoprohr",
+                details: "Deutschlandweiter Versand 6.99€  | Neuware mit 2 Jahre Garantie  |  2× HEPA- Filter (Hoch- Effizienz- Partikel- Luftreiniger) | Integriertes 2-fach Zubehör | Lieferungen innerhalb von Berlin von 20€"
+            },
+
+
+
+            
+            {    sku: 33,
+                product: "STAUBSAUGER ",
+                price: 69,
+                image: "./sk33.jpg",
+                images: [{ 
+                        image: "./sk3301.jpg"
+                    }
+                ],
+                description: "Clatronic Staubsauger |  Eco- Cyclon (Filtertechnik)",
+                details: "Deutschlandweiter Versand 6.99€  | Neuware mit 2 Jahre Garantie  |  2 in 1 Boden-/ Handstaubsauger in Einem | Integriertes Zubehör  |  6,5 m Anschlusskabel  | Lieferungen innerhalb von Berlin von 20€"
+            },
+            
+            {    sku: 34,
+                product: "KÜHLSCHRANK ",
+                price: 745,
+                image: "./sk34.jpg",
+                images: [{ 
+                        image: "./sk3401.jpg"
+                    },
+                         { 
+                        image: "./sk3402.jpg"
+                    },
+                         { 
+                        image: "./sk3403.jpg"
+                    },
+                          { 
+                        image: "./sk3404.jpg"
+                    }
+                ],
+                description: "Bosch Kühlschrank |  149 kwh/annum",
+                details: "Versand Deutschlandweit möglich  | Neuware mit 2 Jahre Garantie  |  H: 185 cm; B: 60 cm; T: 64 cm | 38 dB  |  214L/94L  | Lieferungen innerhalb von Berlin von 20€"
+            },
+                
+            {    sku: 35,
+                product: "KÜHLSCHRANK ",
+                price: 580,
+                image: "./sk35.jpg",
+                images: [{ 
+                        image: "./sk3501.jpg"
+                    },
+                         { 
+                        image: "./sk3502.jpg"
+                    },
+                         { 
+                        image: "./sk3503.jpg"
+                    },
+                          { 
+                        image: "./sk3504.jpg"
+                    }
+                ],
+                description: "Bosch Kühlschrank  A++|  149 kwh/annum",
+                details: "Versand Deutschlandweit möglich  | Neuware mit 2 Jahre Garantie  |  H: 185 cm; B: 60 cm; T: 64 cm | 38 dB  |  214L/94L  | Lieferungen innerhalb von Berlin von 20€"
+            },
+ 
+            
+            {    sku: 36,
+                product: "WASCHMASCHINE",
+                price: 599,
+                image: "./sk36.jpg",
+                images: [{ 
+                        image: "./sk3601.jpg"
+                    },
+                         { 
+                        image: "./sk3602.jpg"
+                    },
+                         { 
+                        image: "./sk3603.jpg"
+                    },
+                          { 
+                        image: "./sk3604.jpg"
+                    }
+                ],
+                description: "Bosch Exclusiv Waschmaschine |  1400 U/min.",
+                details: "Versand Deutschlandweit möglich  | Neuware mit 2 Jahre Garantie  |  H: 85 cm; B: 59,5 cm; T: 55 cm | Kurz 15' - Waschen innerhalb kürzester Zeit  |  Startzeitvorwahl - fertige Wäsche zu Ihrer gewünschten Zeit  | Lieferungen innerhalb von Berlin von 20€"
+            },
+
+
 
             
         ],

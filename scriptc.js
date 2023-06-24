@@ -9974,7 +9974,7 @@ var vue = new Vue({
             {
                 sku: 1,
                 price: 79,
-                product: "KÜCHENMASCHINE",
+                product: "Küchenmaschine",
                 image: "./c1.jpg",
                 images: [{
                         image: "./g2.jpg",
@@ -9994,7 +9994,7 @@ var vue = new Vue({
             {
              sku: 2,
                 price: 69,
-                product: "KÜCHENMASCHINE",
+                product: "Küchenmaschine",
                 image: "./c2.jpg",
                 images: [{
                         image: "./ga2.jpg",
@@ -10019,7 +10019,7 @@ var vue = new Vue({
             {
                 sku: 3,
                 price: 49,
-                product: "WASSERKOCHER",
+                product: "Wasserkocher",
                 image: "./c3.jpg",
                 images: [{
                         image: "./w1.jpg",
@@ -10038,7 +10038,7 @@ var vue = new Vue({
                        {
                 sku: 4,
                 price: 79,
-                product: "HEISSLUFTFRITTEUSE",
+                product: "Heißluftfritteuse",
                 image: "./c4.jpg",
                 images: [{
                         image: "./h1.jpg",
@@ -10060,7 +10060,7 @@ var vue = new Vue({
 
             {
                 sku: 5,
-                product: "WAFFELEISEN",
+                product: "Waffeleisen",
                 price: 85,
                 image: "./c5.jpg",
                 images: [{
@@ -10081,7 +10081,7 @@ var vue = new Vue({
             },
                         {
                 sku: 6,
-                product: "TOASTER",
+                product: "Toaster",
                 price: 49,
                 image: "./c6.jpg",
                 images: [{
@@ -10096,7 +10096,7 @@ var vue = new Vue({
             },
                         {
                 sku: 7,
-                product: "EXQUISIT WASCHMASCHINE",
+                product: "Waschmaschine",
                 price: 299,
                 image: "./c7.jpg",
                 images: [{
@@ -10114,7 +10114,7 @@ var vue = new Vue({
             },  
                            {
                 sku: 8,
-                product: "BOMANN WASCHMASCHINE",
+                product: "Waschmaschine",
                 price: 315,
                 image: "./c8.jpg",
                 images: [{
@@ -10135,7 +10135,7 @@ var vue = new Vue({
                        
             {
                 sku: 9,
-                product: "BOSCH KÜHLSCHRANK",
+                product: "Kühl-und Gefrierkombination",
                 price: 545,
                 image: "./c9.jpg",
                 images: [{
@@ -10152,7 +10152,7 @@ var vue = new Vue({
                      
 {
                 sku: 10, 
-                product: "EXQUISIT KÜHLSCHRANK",
+                product: "Kühl-und Gefrierkombination",
                 price: 450,
                 image: "./re1.jpg",
                 images: [{
@@ -10170,7 +10170,7 @@ var vue = new Vue({
             },
                        {
                 sku: 11,
-                product: "EXQUISIT KÜHLSCHRANK",
+                product: "Kühl-und Gefrierkombination",
                 price: 399,
                 image: "./c11.jpg",
                 images: [{
@@ -10188,7 +10188,7 @@ var vue = new Vue({
             },
                                   {
                 sku: 12,
-                product: "EXQUISIT KÜHLSCHRANK",
+                product: "Kühl-und Gefrierkombination",
                 price: 399,
                 image: "./c12.jpg",
                 images: [{
@@ -10207,7 +10207,7 @@ var vue = new Vue({
 
                                   {
                 sku: 13,
-                product: "EXQUISIT KÜHLSCHRANK",
+                product: "Kühl-und Gefrierkombination",
                 price: 399,
                 image: "./c13.jpg",
                 images: [{
@@ -10225,7 +10225,7 @@ var vue = new Vue({
             },
                                                          {
                 sku: 14,
-                product: "EXQUISIT KÜHLSCHRANK",
+                product: "Kühl-und Gefrierkombination",
                 price: 399,
                 image: "./c14.jpg",
                 images: [{
@@ -10242,7 +10242,7 @@ var vue = new Vue({
                 details: " Kühlschrank mit Garantie | Originalverpackte Ware |     H 146,5 cm; B 54,5cm; T 57,5сm |  A++ alte Energieklasse | E neue Energieklasse | Lieferungen innerhalb von Berlin von 20€"
             },
                {    sku: 15,
-                product: "BOMANN KÜHLSCHRANK",
+                product: "Kühl-und Gefrierkombination",
                 price: 299,
                 image: "./c15.jpg",
                 images: [{
@@ -10259,7 +10259,7 @@ var vue = new Vue({
                 details: " Kühlschrank mit Garantie | Originalverpackte Ware |      H 143 cm; B 50cm; T 56сm |  A++ alte Energieklasse | E neue Energieklasse | Lieferungen innerhalb von Berlin von 20€"
             },
                         {    sku: 16,
-                product: "BOMANN KÜHLSCHRANK",
+                product: "Kühl-und Gefrierkombination",
                 price: 399,
                 image: "./c16.jpg",
                 images: [{
@@ -10276,7 +10276,7 @@ var vue = new Vue({
                 details: " Kühlschrank mit Garantie | Originalverpackte Ware |     H 180 cm; B 55cm; T 56сm |  A+++ alte Energieklasse | D neue Energieklasse | Lieferungen innerhalb von Berlin von 20€"
             },
                        {    sku: 17,
-                product: "BOMANN KÜHLSCHRANK",
+                product: "Kühl-und Gefrierkombination",
                 price: 399,
                 image: "./c17.jpg",
                 images: [{
@@ -10294,7 +10294,7 @@ var vue = new Vue({
             },
                        
                     {    sku: 18,
-                product: "BOMANN KÜHLSCHRANK",
+                product: "Kühl-und Gefrierkombination",
                 price: 299,
                 image: "./ba1.jpg",
                 images: [{ 
@@ -10311,7 +10311,7 @@ var vue = new Vue({
                 details: " Kühlschrank mit Garantie | Originalverpackte Ware |     H 143 cm; B 50cm; T 56сm |  A++ alte Energieklasse | D neue Energieklasse | Lieferungen innerhalb von Berlin von 20€"
             },
                  {    sku: 19,
-                product: "BOMANN KÜHLSCHRANK",
+                product: "Kühl-und Gefrierkombination",
                 price: 299,
                 image: "./c20.jpg",
                 images: [{ 
@@ -10328,7 +10328,7 @@ var vue = new Vue({
                 details: " Kühlschrank mit Garantie | Originalverpackte Ware |     H 143 cm; B 50cm; T 56сm |  A++ alte Energieklasse | D neue Energieklasse | Lieferungen innerhalb von Berlin von 20€"
             },
                        {    sku: 20,
-                product: "BOMANN KÜHLSCHRANK",
+                product: "Kühl-und Gefrierkombination",
                 price: 399,
                 image: "./b1.jpg",
                 images: [{ 
@@ -10347,7 +10347,7 @@ var vue = new Vue({
                   
             
                {    sku: 21,
-                product: "ROTIERENDE VORRATSBEHÄLTER",
+                product: "Rotierende Vorratsbehälter",
                 price: 35,
                 image: "./sk22.jpg",
                 images: [{ 
@@ -10358,11 +10358,11 @@ var vue = new Vue({
                     }
                 ],
                 description: "360-Grad-Rotationsdesign",
-                details: "Versand Deutschlandweit möglich | Box Getrennt versiegelter Müsli-Reistank-Spender Lebensmittelbehälter  Küchen-Organizer | Größe: 31cm x 26,3cm | Lieferungen innerhalb von Berlin von 20€"
+                details: "Versand deutschlandweit möglich | Box Getrennt versiegelter Müsli-Reistank-Spender Lebensmittelbehälter  Küchen-Organizer | Größe: 31cm x 26,3cm | Lieferungen innerhalb von Berlin von 20€"
             },
 
                {    sku: 22,
-                product: "BOMANN UNIVERSALMIXER",
+                product: "Bomann Universalmixer",
                 price: 49,
                 image: "./sk23.jpg",
                 images: [{ 
@@ -10376,12 +10376,12 @@ var vue = new Vue({
                     }
                 ],
                 description: "3Edelstahl- Gehäuse | 650 Watt ",
-                details: "Versand Deutschlandweit möglich | Neuware mit 2 Jahre Garantie  |  Mischbehälter aus massivem Glas  |  inkl. ICE- Crush -Funktion  | Lieferungen innerhalb von Berlin von 20€"
+                details: "Versand deutschlandweit möglich | Neuware mit 2 Jahre Garantie  |  Mischbehälter aus massivem Glas  |  inkl. ICE- Crush -Funktion  | Lieferungen innerhalb von Berlin von 20€"
             },
             
             
             {    sku: 23,
-                product: "BOSCH SERIE 8 WASCHMASCHINE",
+                product: "Bosch Serie 8 Waschmaschine",
                 price: 999,
                 image: "./sk24.jpg",
                 images: [{ 
@@ -10402,7 +10402,7 @@ var vue = new Vue({
             },
 
             {    sku: 24,
-                product: "WASSERKOCHER",
+                product: "Wasserkocher",
                 price: 20,
                 image: "./sk25.jpg",
                 images: [{ 
@@ -10419,11 +10419,11 @@ var vue = new Vue({
                     }
                 ],
                 description: "Clatronic Wasserkocher |  2200 Watt max.",
-                details: "Versand Deutschlandweit möglich | Neuware mit 2 Jahre Garantie  |  Füllmenge 1,7 Liter max. | Edelstahlheizelement | Soft Touch-Griff | Lieferungen innerhalb von Berlin von 20€"
+                details: "Versand deutschlandweit möglich | Neuware mit 2 Jahre Garantie  |  Füllmenge 1,7 Liter max. | Edelstahlheizelement | Soft Touch-Griff | Lieferungen innerhalb von Berlin von 20€"
             },
             
             {    sku: 25,
-                product: "WASSERKOCHER",
+                product: "Wasserkocher",
                 price: 20,
                 image: "./sk26.jpg",
                 images: [{ 
@@ -10440,11 +10440,11 @@ var vue = new Vue({
                     }
                 ],
                 description: "Clatronic Wasserkocher |  2200 Watt max.",
-                details: "Versand Deutschlandweit möglich | Neuware mit 2 Jahre Garantie  |  Füllmenge 1,7 Liter max. | Edelstahlheizelement | Soft Touch-Griff | Lieferungen innerhalb von Berlin von 20€"
+                details: "Versand deutschlandweit möglich | Neuware mit 2 Jahre Garantie  |  Füllmenge 1,7 Liter max. | Edelstahlheizelement | Soft Touch-Griff | Lieferungen innerhalb von Berlin von 20€"
             },
             
                {    sku: 26,
-                product: "WASSERKOCHER",
+                product: "Wasserkocher",
                 price: 25,
                 image: "./sk27.jpg",
                 images: [{ 
@@ -10455,11 +10455,11 @@ var vue = new Vue({
                     }
                 ],
                 description: "Bomann Wasserkocher |  2200 Watt max.",
-                details: "Versand Deutschlandweit möglich | Neuware mit 2 Jahre Garantie  |  Füllmenge 1,7 Liter max. | Glas-/Edelstahlgehäuse | 360° drehbare Steckverbindung | Lieferungen innerhalb von Berlin von 20€"
+                details: "Versand deutschlandweit möglich | Neuware mit 2 Jahre Garantie  |  Füllmenge 1,7 Liter max. | Glas-/Edelstahlgehäuse | 360° drehbare Steckverbindung | Lieferungen innerhalb von Berlin von 20€"
             },
  
             {    sku: 27,
-                product: "EINBAUHERD & CERANFELD",
+                product: "Einbauherd & Ceranfeld",
                 price: 395,
                 image: "./sk28.jpg",
                 images: [{ 
@@ -10473,11 +10473,11 @@ var vue = new Vue({
                     }
                 ],
                 description: "Exquisit |  Klasse.",
-                details: "Versand Deutschlandweit möglich | Neuware mit 2 Jahre Garantie  |  Einbauherd & Ceranfeld | Lieferungen innerhalb von Berlin von 20€"
+                details: "Versand deutschlandweit möglich | Neuware mit 2 Jahre Garantie  |  Einbauherd & Ceranfeld | Lieferungen innerhalb von Berlin von 20€"
             },
              
             {    sku: 28,
-                product: "STANDHERD MIT CERANFELD ",
+                product: "Standherd mit Ceranfeld",
                 price: 375,
                 image: "./sk29.jpg",
                 images: [{ 
@@ -10494,12 +10494,12 @@ var vue = new Vue({
                     }
                 ],
                 description: "A Klasse Exquisit |  Edelstahl-Design",
-                details: "Versand Deutschlandweit möglich | Neuware mit 2 Jahre Garantie  |  H: 83,0 cm; B:60,0cm; T:62,0cm | Umluft - für optimale Back- und Bratergebnisse | Glaskeramikkochfeld | Lieferungen innerhalb von Berlin von 20€"
+                details: "Versand deutschlandweit möglich | Neuware mit 2 Jahre Garantie  |  H: 83,0 cm; B:60,0cm; T:62,0cm | Umluft - für optimale Back- und Bratergebnisse | Glaskeramikkochfeld | Lieferungen innerhalb von Berlin von 20€"
             },
             
             
             {    sku: 29,
-                product: "STAUBSAUGER ",
+                product: "Staubsauger ",
                 price: 79,
                 image: "./sk30.jpg",
                 images: [{ 
@@ -10524,7 +10524,7 @@ var vue = new Vue({
 
 
             {    sku: 30,
-                product: "STAUBSAUGER ",
+                product: "Staubsauger ",
                 price: 69,
                 image: "./sk31.jpg",
                 images: [{ 
@@ -10541,7 +10541,7 @@ var vue = new Vue({
                 details: "Deutschlandweiter Versand 6.99€  | Neuware mit 2 Jahre Garantie  | 2× HEPA- Filter (Hoch- Effizienz- Partikel- Luftreiniger) | Integriertes 2-fach Zubehör | Lieferungen innerhalb von Berlin von 20€"
             },
              {    sku: 31,
-                product: "STAUBSAUGER ",
+                product: "Staubsauger ",
                 price: 69,
                 image: "./sk32.jpg",
                 images: [{ 
@@ -10561,7 +10561,7 @@ var vue = new Vue({
 
             
             {    sku: 32,
-                product: "STAUBSAUGER ",
+                product: "Staubsauger",
                 price: 69,
                 image: "./sk37.jpg",
                 images: [{ 
@@ -10582,7 +10582,7 @@ var vue = new Vue({
 
             
             {    sku: 33,
-                product: "STAUBSAUGER ",
+                product: "Staubsauger ",
                 price: 69,
                 image: "./sk33.jpg",
                 images: [{ 
@@ -10594,7 +10594,7 @@ var vue = new Vue({
             },
             
             {    sku: 34,
-                product: "KÜHLSCHRANK ",
+                product: "Kühl-und Gefrierkombination ",
                 price: 745,
                 image: "./sk34.jpg",
                 images: [{ 
@@ -10611,11 +10611,11 @@ var vue = new Vue({
                     }
                 ],
                 description: "Bosch Kühlschrank |  149 kwh/annum",
-                details: "Versand Deutschlandweit möglich  | Neuware mit 2 Jahre Garantie  |  H: 185 cm; B: 60 cm; T: 64 cm | 38 dB  |  214L/94L  | Lieferungen innerhalb von Berlin von 20€"
+                details: "Versand deutschlandweit möglich  | Neuware mit 2 Jahre Garantie  |  H: 185 cm; B: 60 cm; T: 64 cm | 38 dB  |  214L/94L  | Lieferungen innerhalb von Berlin von 20€"
             },
                 
             {    sku: 35,
-                product: "KÜHLSCHRANK ",
+                product: "Kühl-und Gefrierkombination ",
                 price: 580,
                 image: "./sk35.jpg",
                 images: [{ 
@@ -10632,12 +10632,12 @@ var vue = new Vue({
                     }
                 ],
                 description: "Bosch Kühlschrank  A++|  149 kwh/annum",
-                details: "Versand Deutschlandweit möglich  | Neuware mit 2 Jahre Garantie  |  H: 185 cm; B: 60 cm; T: 64 cm | 38 dB  |  214L/94L  | Lieferungen innerhalb von Berlin von 20€"
+                details: "Versand deutschlandweit möglich  | Neuware mit 2 Jahre Garantie  |  H: 185 cm; B: 60 cm; T: 64 cm | 38 dB  |  214L/94L  | Lieferungen innerhalb von Berlin von 20€"
             },
  
             
             {    sku: 36,
-                product: "WASCHMASCHINE",
+                product: "Waschmaschine",
                 price: 599,
                 image: "./sk36.jpg",
                 images: [{ 
@@ -10654,11 +10654,11 @@ var vue = new Vue({
                     }
                 ],
                 description: "Bosch Exclusiv Waschmaschine |  1400 U/min.",
-                details: "Versand Deutschlandweit möglich  | Neuware mit 2 Jahre Garantie  |  H: 85 cm; B: 59,5 cm; T: 55 cm | Kurz 15' - Waschen innerhalb kürzester Zeit  |  Startzeitvorwahl - fertige Wäsche zu Ihrer gewünschten Zeit  | Lieferungen innerhalb von Berlin von 20€"
+                details: "Versand deutschlandweit möglich  | Neuware mit 2 Jahre Garantie  |  H: 85 cm; B: 59,5 cm; T: 55 cm | Kurz 15' - Waschen innerhalb kürzester Zeit  |  Startzeitvorwahl - fertige Wäsche zu Ihrer gewünschten Zeit  | Lieferungen innerhalb von Berlin von 20€"
             },
             
             {    sku: 37,
-                product: "MIKROWELLE",
+                product: "Mikrowelle",
                 price: 79,
                 image: "./sk38.jpg",
                 images: [{ 
@@ -10672,7 +10672,7 @@ var vue = new Vue({
                     }
                 ],
                 description: "Bomann Mikrowelle |  700 Watt",
-                details: "Versand Deutschlandweit möglich  | Neuware mit 2 Jahre Garantie  |  20 Liter Garraum | 6 Leistungsstufen  |  Drehteller, Ø ca. 24,5 cm | 230 V, 50 Hz, 1150 W  | Lieferungen innerhalb von Berlin von 20€"
+                details: "Versand deutschlandweit möglich  | Neuware mit 2 Jahre Garantie  |  20 Liter Garraum | 6 Leistungsstufen  |  Drehteller, Ø ca. 24,5 cm | 230 V, 50 Hz, 1150 W  | Lieferungen innerhalb von Berlin von 20€"
             },
 
 

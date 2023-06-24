@@ -10519,11 +10519,44 @@ var vue = new Vue({
                     }
                 ],
                 description: "Clatronic Staubsauger |  Metall- Teleskoprohr",
-                details: "deutschlandweiter Versand 6.99€  | Neuware mit 2 Jahre Garantie  |  Gummierte Laufrollen (ideal für empfindliche Böden) | Integriertes 3-fach Zubehör | Lieferungen innerhalb von Berlin von 20€"
+                details: "Deutschlandweiter Versand 6.99€  | Neuware mit 2 Jahre Garantie  |  Gummierte Laufrollen (ideal für empfindliche Böden) | Integriertes 3-fach Zubehör | Lieferungen innerhalb von Berlin von 20€"
             },
 
 
-
+            {    sku: 30,
+                product: "STAUBSAUGER ",
+                price: 69,
+                image: "./sk31.jpg",
+                images: [{ 
+                        image: "./sk3101.jpg"
+                    },
+                    {
+                        image: "./sk3102.jpg"
+                    },
+                    {
+                        image: "./sk3103.jpg"
+                    }
+                ],
+                description: "Clatronic Staubsauger |  Metall- Teleskoprohr",
+                details: "Deutschlandweiter Versand 6.99€  | Neuware mit 2 Jahre Garantie  | 2× HEPA- Filter (Hoch- Effizienz- Partikel- Luftreiniger) | Integriertes 2-fach Zubehör | Lieferungen innerhalb von Berlin von 20€"
+            },
+             {    sku: 31,
+                product: "STAUBSAUGER ",
+                price: 69,
+                image: "./sk32.jpg",
+                images: [{ 
+                        image: "./sk3201.jpg"
+                    },
+                    {
+                        image: "./sk3202.jpg"
+                    },
+                    {
+                        image: "./sk3203.jpg"
+                    }
+                ],
+                description: "Clatronic Staubsauger |  Metall- Teleskoprohr",
+                details: "Deutschlandweiter Versand 6.99€  | Neuware mit 2 Jahre Garantie  |  2× HEPA- Filter (Hoch- Effizienz- Partikel- Luftreiniger) | Integriertes 2-fach Zubehör | Lieferungen innerhalb von Berlin von 20€"
+            },
 
 
 

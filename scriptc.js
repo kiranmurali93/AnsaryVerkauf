@@ -10656,6 +10656,24 @@ var vue = new Vue({
                 description: "Bosch Exclusiv Waschmaschine |  1400 U/min.",
                 details: "Versand Deutschlandweit möglich  | Neuware mit 2 Jahre Garantie  |  H: 85 cm; B: 59,5 cm; T: 55 cm | Kurz 15' - Waschen innerhalb kürzester Zeit  |  Startzeitvorwahl - fertige Wäsche zu Ihrer gewünschten Zeit  | Lieferungen innerhalb von Berlin von 20€"
             },
+            
+            {    sku: 37,
+                product: "MIKROWELLE",
+                price: 79,
+                image: "./sk38.jpg",
+                images: [{ 
+                        image: "./sk3801.jpg"
+                    },
+                         { 
+                        image: "./sk3802.jpg"
+                    },
+                         { 
+                        image: "./sk3803.jpg"
+                    }
+                ],
+                description: "Bomann Mikrowelle |  700 Watt",
+                details: "Versand Deutschlandweit möglich  | Neuware mit 2 Jahre Garantie  |  20 Liter Garraum | 6 Leistungsstufen  |  Drehteller, Ø ca. 24,5 cm | 230 V, 50 Hz, 1150 W  | Lieferungen innerhalb von Berlin von 20€"
+            },
 
 
 

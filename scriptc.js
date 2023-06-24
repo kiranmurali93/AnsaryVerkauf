@@ -10136,7 +10136,7 @@ var vue = new Vue({
             {
                 sku: 9,
                 product: "BOSCH KÜHLSCHRANK",
-                price: 525,
+                price: 545,
                 image: "./c9.jpg",
                 images: [{
                         image: "./rettt2.jpg"

@@ -10382,7 +10382,7 @@ var vue = new Vue({
             
             {    sku: 23,
                 product: "Bosch Serie 8 Waschmaschine",
-                price: 999,
+                price: 1100,
                 image: "./sk24.jpg",
                 images: [{ 
                         image: "./sk2401.jpg"

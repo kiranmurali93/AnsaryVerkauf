@@ -9206,6 +9206,20 @@
          * @param {String} sign
          */
 
+
+        currency: function currency(value, _currency) {
+            value = parseFloat(value);
+            if (!isFinite(value) || !value && value !== 0) return '';
+            _currency = _currency != null ? _currency : '€';
+            var stringified = Math.abs(value).toFixed(2);
+            var _int = stringified.slice(0, -3).replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+            var _float = stringified.slice(-3).replace('.', ','); // Change decimal separator
+            var sign = value < 0 ? '-' : '';
+            return _currency + sign + _int + _float;
+        },
+
+
+        /*
         currency: function currency(value, _currency) {
             value = parseFloat(value);
             if (!isFinite(value) || !value && value !== 0) return '';
@@ -9218,7 +9232,9 @@
             var sign = value < 0 ? '-' : '';
             return _currency + sign + head + _int.slice(i).replace(digitsRE, '€1,') + _float;
         },
+        */
 
+        
         /**
          * 'item' => 'items'
          *

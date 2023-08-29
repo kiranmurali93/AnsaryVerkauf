@@ -1,15 +1,56 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <title>Shopping Cart</title>
-  <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css'><link rel="stylesheet" href="./stylec.css">
+  <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css'>
+  <link rel="stylesheet" href="./stylec.css">
+  <style>
+    /* Add styles for the black footer */
+    .footer {
+      background-color: black;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      cursor: pointer; /* Add a cursor style to indicate the text is clickable */
+    }
 
+    /* Add styles for the popup */
+    .popup-container {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+      z-index: 9998;
+      justify-content: center;
+      align-items: center;
+      backdrop-filter: blur(5px);
+    }
+
+    .popup {
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+      padding: 20px;
+      max-width: 80%;
+      position: relative;
+      text-align: center;
+    }
+
+    .popup-close {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      cursor: pointer;
+    }
+  </style>
 </head>
 <body>
-<!-- partial:index.partial.html -->
 <div class="main-wrapper">
- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   
   <div class="header"><h1></h1></div>
   <div id="vue">
@@ -17,9 +58,42 @@
     <products :cart="cart" :cart-sub-total="cartSubTotal" :tax="tax" :cart-total="cartTotal" :products-data="productsData"></products>
     <checkout-area v-if="checkoutBool" :cart="cart" :tax="tax" :cart-sub-total="cartSubTotal" :cart-total="cartTotal" :products-data="productsData" :total-with-tax="totalWithTax"></checkout-area>
   </div>
-</div>
-<!-- partial -->
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/1.0.11/vue.js'></script><script  src="./scriptc.js"></script>
+  
+  <!-- Add the black footer with "Impressum" text -->
+  <div class="footer" onclick="showPopup()">
+    Impressum
+  </div>
 
+  <!-- Popup container -->
+  <div class="popup-container" id="popup-container" onclick="hidePopup()">
+    <!-- Popup content -->
+    <div class="popup">
+      <span class="popup-close" onclick="hidePopup()">&times;</span>
+      <p>Ansary Verkauf</p>
+      <p>Prinzenallee 50</p>
+      <p>13359 Berlin</p>
+      <p>Telefon: 01784021650</p>
+      <p>WhatsApp / Viber / Imo 01784021650</p>
+      <p>Facebook @AnsaryVerkaufTeam</p>
+      <p>StNr. 23/209/00777</p>
+      <p>Inhaber: Familie Ansary</p>
+      <p>E-Mail: info@ansaryverkauf.de</p>
+    </div>
+  </div>
+</div>
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/vue/1.0.11/vue.js'></script>
+<script  src="./scriptc.js"></script>
+<script>
+  function showPopup() {
+    var popupContainer = document.getElementById('popup-container');
+    popupContainer.style.display = 'flex';
+  }
+
+  function hidePopup() {
+    var popupContainer = document.getElementById('popup-container');
+    popupContainer.style.display = 'none';
+  }
+</script>
 </body>
 </html>
